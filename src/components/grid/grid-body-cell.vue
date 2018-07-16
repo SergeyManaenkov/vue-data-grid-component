@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import { numeral } from './grid-formatting';
+    import { numeral } from '../../utility';
 
     export default {
         props: ["column", "row"],
@@ -15,8 +15,11 @@
 
                 switch ( column.type ) {
                     case 'numeral':
-                        let num = numeral(row[column.field]);
-                        return num.format(column.format);
+                        if ( row[column.field] == null || row[column.field] == undefined ) {
+                            return '';
+                        }
+                        let num = numeral( row[column.field] );
+                        return num.format( column.format );
                         break;
                     default:
                         return row[column.field];

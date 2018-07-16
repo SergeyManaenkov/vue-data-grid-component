@@ -1,7 +1,7 @@
 import 'es6-promise/auto'; // т.к. для VUEX нужна поддержка promise, а в IE promise неподдерживается. Подключаем библиотеку-полефил
 require( 'es6-object-assign' ).polyfill();// IE 11 не поддерживает Object.assign
 
-import { createSorting } from "../helper"
+import { createSorting } from "../utility"
 
 import Vue from 'vue';
 import Vuex from 'vuex';
@@ -16,10 +16,10 @@ function column( options = {} ) {
         type: 'string',// string | numeral |
         require: false,
         format: null,
-        sorting: {
+        /*sorting: {
             ignoreCase: true,// false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
             direction: undefined // undefined: asc | -1: desc
-        },
+        },*/
         rowspan: 1,
         colspan: 1
     };
@@ -52,7 +52,9 @@ export const store = new Vuex.Store( {
             new column( { field: 'text' } ),
             new column( { field: 'name', require: true, colspan: 2 } ),
             new column( { field: 'state' } ),
-            new column( { field: 'amount', type: 'numeral', format: '0,0.[000000]' } )
+            new column( {
+                field: 'amount', type: 'numeral', format: '0,0.[000000]'
+            } )
         ],
         rowsHeader: [],
         rowsBody: [],
@@ -89,44 +91,58 @@ export const store = new Vuex.Store( {
             }, 0 )
 
         },
-        getRowsBody( { commit } ) {
+        getRowsBody( { commit, state } ) {
+            debugger;
+            const { groupings, columns } = state;
             let dataRowsBody = [
 
                 {
-                    text: 'td text 1',
+                    text: 'a',
                     name: 'td name 1',
                     state: 'тест state 1',
                     amount: 1234567890.987654321
                 },
                 {
-                    text: 'td text 2',
-                    name: 'td name 2',
+                    text: '1',
+                    name: '3',
                     state: 'тест state 2',
-                    amount: null
+                    amount: 2
                 },
                 {
-                    text: 'td text 2',
-                    name: 'td name 2',
+                    text: '1',
+                    name: '2',
+                    state: 'тест state 2',
+                    amount: 2
+                },
+                {
+                    text: '1',
+                    name: '3',
                     state: 'тест state 2',
                     amount: 0
+                },
+                {
+                    text: '1',
+                    name: 'null',
+                    state: 'тест state 2',
+                    amount: null
                 }
             ];
 
-            let sorting = createSorting( [{
-                field: 'amount',
-                sorting: {
-                    ignoreCase: true, // false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
-                    direction: undefined // undefined: asc | -1: desc
+            let _sortings = groupings || [];
+            for ( const column of columns ) {
+                if ( column.sorting ) {
+                    _sortings.push( column );
                 }
-            }] );
+            }
 
             setTimeout( () => {
+                if ( _sortings.length ) {
+                    dataRowsBody = (dataRowsBody.slice( 0 ).sort( createSorting( _sortings ) ));
+                }
+
                 commit( 'dataRowsBody', dataRowsBody );
             }, 1000 );
 
-            setTimeout( () => {
-                commit( 'dataRowsBody', (dataRowsBody.slice(0).sort( sorting )) );
-            }, 2000 );
         },
         getRowsFooter( { commit } ) {
             let dataRowsFooter = [

@@ -28,7 +28,7 @@ function column( options = {} ) {
 }
 
 /* Создает экземпляр группировки */
-function grouping( options = {} ) {
+function group( options = {} ) {
     this.defaultOptions = {
         field: null,
         type: 'string',// string | numeral |
@@ -45,8 +45,8 @@ function grouping( options = {} ) {
 export const store = new Vuex.Store( {
     strict: process.env.NODE_ENV !== 'production',
     state: {
-        groupings: [
-            new grouping( { field: 'text' } )
+        groups: [
+            new group( { field: 'text' } )
         ],
         columns: [
             new column( { field: 'text' } ),
@@ -58,7 +58,23 @@ export const store = new Vuex.Store( {
         ],
         rowsHeader: [],
         rowsBody: [],
-        rowsFooter: []
+        rowsFooter: [],
+        getSettingsSorting: ( { groups, columns } ) => {
+            let settingsSorting = groups || [];
+            for ( const column of columns ) {
+                if ( column.sorting ) {
+                    settingsSorting.push( column );
+                }
+            }
+            return settingsSorting;
+        },
+        createSort: ( state ) => {
+            const settingsSortings = state.getSettingsSorting( state );
+            if ( settingsSortings.length ) {
+                return createSorting( settingsSortings );
+            }
+            return undefined;
+        }
     },
     getters: {},
     mutations: {
@@ -91,11 +107,8 @@ export const store = new Vuex.Store( {
             }, 0 )
 
         },
-        getRowsBody( { commit, state } ) {
-            debugger;
-            const { groupings, columns } = state;
+        getRowsBody( { commit, getters, state } ) {
             let dataRowsBody = [
-
                 {
                     text: 'a',
                     name: 'td name 1',
@@ -128,19 +141,8 @@ export const store = new Vuex.Store( {
                 }
             ];
 
-            let _sortings = groupings || [];
-            for ( const column of columns ) {
-                if ( column.sorting ) {
-                    _sortings.push( column );
-                }
-            }
-
             setTimeout( () => {
-                if ( _sortings.length ) {
-                    dataRowsBody = (dataRowsBody.slice( 0 ).sort( createSorting( _sortings ) ));
-                }
-
-                commit( 'dataRowsBody', dataRowsBody );
+                commit( 'dataRowsBody', (dataRowsBody.slice( 0 ).sort( (state.createSort( state )) )) );
             }, 1000 );
 
         },

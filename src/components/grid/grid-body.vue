@@ -5,6 +5,7 @@
                 v-for="(row, index) in rows"
                 :key="index"
                 v-bind:row="row"
+                v-bind:currentTextGroup="currentTextGroup"
         ></grid-body-row>
         </tbody>
 </template>
@@ -14,6 +15,11 @@
 
     export default {
         props: ["rows"],
+        data(){
+            return {
+                currentTextGroup: null
+            }
+        },
         components: {
             gridBodyRow
         }

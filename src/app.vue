@@ -1,5 +1,5 @@
 <template>
-    <table class="table table-bordered">
+    <table class="table table-hover table-bordered table-sm">
         <grid-header
                 v-bind:rows="rowsHeader"
         ></grid-header>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-    import { mapState } from 'vuex';
+    import { mapState, mapActions } from 'vuex';
 
     import gridBody from './components/grid/grid-body.vue';
     import gridHeader from './components/grid/grid-header.vue';
@@ -25,12 +25,30 @@
             gridBody,
             gridFooter
         },
-        computed:{
-            ...mapState([
-                'rowsBody',
+        computed: {
+            ...mapState( [
                 'rowsHeader',
+                'rowsBody',
                 'rowsFooter'
+            ] )
+        },
+        methods: {
+            ...mapActions([
+                'getRowsHeader',
+                'getRowsBody',
+                'getRowsFooter'
             ])
+        },
+        created(){
+            let metods = mapActions([
+                'getRowsHeader',
+                'getRowsBody',
+                'getRowsFooter'
+            ]);
+
+            metods.getRowsHeader.apply(this);
+            metods.getRowsBody.apply(this);
+            metods.getRowsFooter.apply(this);
         }
     }
 </script>

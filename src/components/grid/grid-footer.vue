@@ -1,21 +1,21 @@
 <template>
 <tfoot>
-<grid-row
+<grid-footer-row
         v-for="(row, index) in rows"
         :key="index"
         v-bind:row="row"
-></grid-row>
+></grid-footer-row>
 </tfoot>
 </template>
 
 
 <script>
-    import gridRow from './grid-row.vue';
+    import GridFooterRow from './grid-footer-row.vue';
 
     export default {
         props: ["rows"],
         components: {
-            gridRow
+            GridFooterRow
         }
     }
 </script>

@@ -1,21 +1,21 @@
 <template>
 
         <tbody>
-        <grid-row
+        <grid-body-row
                 v-for="(row, index) in rows"
                 :key="index"
                 v-bind:row="row"
-        ></grid-row>
+        ></grid-body-row>
         </tbody>
 </template>
 
 <script>
-    import gridRow from './grid-row.vue';
+    import gridBodyRow from './grid-body-row.vue';
 
     export default {
         props: ["rows"],
         components: {
-            gridRow
+            gridBodyRow
         }
     }
 </script>

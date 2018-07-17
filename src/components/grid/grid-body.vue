@@ -5,7 +5,6 @@
                 v-for="(row, index) in rows"
                 :key="index"
                 v-bind:row="row"
-                v-bind:currentTextGroup="currentTextGroup"
         ></grid-body-row>
         </tbody>
 </template>

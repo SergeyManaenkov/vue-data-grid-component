@@ -14,11 +14,6 @@
 
     export default {
         props: ["rows"],
-        data(){
-            return {
-                currentTextGroup: null
-            }
-        },
         components: {
             gridBodyRow
         }

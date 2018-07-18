@@ -10,36 +10,61 @@ import Vuex from 'vuex';
 Vue.use( Vuex );
 
 /* Создает экземпляр колонки */
-function column( options = {} ) {
-    this.defaultOptions = {
-        field: null,
-        type: 'string',// string | numeral |
-        require: false,
-        format: null,
-        /*sorting: {
-            ignoreCase: true,// false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
-            direction: undefined // undefined: asc | -1: desc
-        },*/
-        rowspan: 1,
-        colspan: 1
-    };
+class column {
 
-    return Object.assign( this.defaultOptions, options );
+    constructor( options = {} ) {
+        let defaultOptions = {
+            field: null,
+            type: 'string',// string | numeral |
+            require: false,
+            format: null,
+            /*sorting: {
+                ignoreCase: true,// false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
+                direction: undefined // undefined: asc | -1: desc
+            },*/
+            rowspan: 1,
+            colspan: 1
+        };
+
+        Object.assign( this, defaultOptions, options );
+    }
+
 }
 
 /* Создает экземпляр группировки */
-function group( options = {} ) {
-    this.defaultOptions = {
-        field: null,
-        type: 'string',// string | numeral |
-        format: null,
-        sorting: {
-            ignoreCase: true, // false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
-            direction: undefined // undefined: asc | -1: desc
-        }
-    };
+class group {
+    constructor( options = {} ) {
+        let defaultOptions = {
+            field: null,
+            type: 'string',// string | numeral |
+            format: null,
+            sorting: {
+                ignoreCase: true, // false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
+                direction: undefined // undefined: asc | -1: desc
+            }
+        };
 
-    return Object.assign( this.defaultOptions, options );
+        Object.assign( this, defaultOptions, options );
+    }
+
+}
+
+class dataItem {
+    constructor( data ) {
+        this.item = data;
+    }
+
+}
+
+class dataItemGroup {
+    constructor( title, group ) {
+        this.title = title;
+        this.group = group;
+        this.items = [];
+        this.LevelItem = 0;
+        this.isGroup = true;
+    }
+
 }
 
 export const store = new Vuex.Store( {
@@ -107,7 +132,7 @@ export const store = new Vuex.Store( {
             }, 0 )
 
         },
-        getRowsBody( { commit, getters, state } ) {
+        getRowsBody( { commit, state } ) {
             let dataRowsBody = [
                 {
                     text: 'a',
@@ -136,13 +161,78 @@ export const store = new Vuex.Store( {
                 {
                     text: '1',
                     name: 'null',
-                    state: 'тест state 2',
+                    state: null,
                     amount: null
                 }
             ];
 
             setTimeout( () => {
-                commit( 'dataRowsBody', (dataRowsBody.slice( 0 ).sort( (state.createSort( state )) )) );
+                // Создаем функцию множественной сортировки на основании настроек взятых из групировок и колонок
+                const sort = state.createSort( state );
+/////////////////////////////////////////////////////////////
+                // Сортируем данные
+                const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( sort );
+
+                function getRoots( settings, dataCopy ) {
+                    var roots = [];
+                    for ( var i = 0; i < dataCopy.length; i++ ) {
+                        var item = dataCopy[i];
+                        if ( !item[settings.treeOptions.columnParentId] ) {
+                            item.LevelItem = 0;
+                            roots.push( item );
+                            dataCopy.splice( i, 1 );
+                            i--;
+                        }
+                    }
+                    if ( settings.treeOptions && settings.treeOptions.sortRoot && settings.treeOptions.sortRoot.columns ) {
+                        roots.sort( createFuncSort( settings ) );
+                    }
+                    if ( roots.length )
+                        return roots
+                    else
+                        return undefined;
+                }
+
+                function getChildsForParent( settings, parentItem, dataCopy ) {
+                    var parents = [];
+                    for ( var i = 0; i < dataCopy.length; i++ ) {
+                        var item = dataCopy[i];
+                        if ( item[settings.treeOptions.columnParentId] == parentItem[settings.treeOptions.columnId] ) {
+                            item.LevelItem = parentItem.LevelItem + 1
+                            item.parentItem = parentItem;
+                            parents.push( item );
+                            dataCopy.splice( i, 1 );
+                            i--;
+                        }
+                    }
+                    if ( settings.treeOptions && settings.treeOptions.sortChilds && settings.treeOptions.sortChilds.columns ) {
+                        parents.sort( createFuncSort( settings ) );
+                    }
+                    return parents;
+                }
+
+                let { groups, columns } = state;
+                if ( groups && groups.length && dataRowsBody.length ) {
+
+                    const dataRowsBodyCopy = dataRowsBody.slice( 0 );
+
+                    let currentTitleGroup = '';
+                    const rootDataGroup = [];
+                    let rootSet = new Set();
+
+                    groups.forEach( function ( _group ) {
+                        for ( let i = 0; i < dataRowsBodyCopy.length; i++ ) {
+                            let item = dataRowsBodyCopy[i];
+
+                            rootSet.add( item[_group.field] );
+
+                        }
+                    } );
+                }
+
+
+////////////////////////////////////////////////////////////////////////
+                commit( 'dataRowsBody', sortDataRowsBody );
             }, 1000 );
 
         },
@@ -156,7 +246,7 @@ export const store = new Vuex.Store( {
             ];
             setTimeout( () => {
                 commit( 'dataRowsFooter', dataRowsFooter );
-            }, 3000 )
+            }, 2000 )
         }
     }
 

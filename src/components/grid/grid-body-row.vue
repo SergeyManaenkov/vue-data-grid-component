@@ -14,7 +14,7 @@
     import GridBodyCell from './grid-body-cell';
 
     export default {
-        props: ["row", "currentTextGroup"],
+        props: ["row"],
         components: {
             GridBodyCell/*: import ('./grid-cell')*/
         },

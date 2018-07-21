@@ -3,8 +3,7 @@
     <grid-header-row
             v-for="(row, index) in rows"
             :key="index"
-            v-bind:row="row"
-            :attr="counterColumn"
+            :row="row"
     ></grid-header-row>
     </thead>
 </template>

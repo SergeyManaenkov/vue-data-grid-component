@@ -1,31 +1,27 @@
 <template>
-    <td :colspan="colspan">
-        {{ text }}
-    </td>
+    <th :colspan="colspan">
+        <span :style="{marginLeft: indent}">{{ text }}</span>
+    </th>
 </template>
 
 <script>
     import { numeral } from '../../utility';
+    /*import { mapState } from 'vuex';*/
 
     export default {
-        props: ["column", "row", "colspan"],
+        props: ["row", "colspan"],
         computed: {
-            text: function () {
-                let { column, row } = this;
-                // Форматируем текст для ячейки
-                switch ( column.type ) {
-                    case 'numeral':
-                        if ( row[column.field] == null || row[column.field] == undefined ) {
-                            return '';
-                        }
-                        let num = numeral( row[column.field] );
-                        return num.format( column.format );
-                        break;
-                    default:
-                        return row[column.field];
-                        break;
-                }
-
+            /*...mapState( [
+                'groups'
+            ] ),*/
+            text() {
+                let { row } = this;
+                debugger;
+                return row.title;
+            },
+            indent() {
+                debugger;
+                return (this.row.level * 15) + 'px';
             }
         }
     }

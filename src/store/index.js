@@ -77,25 +77,30 @@ class dataItem {
 }
 
 /* Создает экземпляр строки данных */
-class dataItemGroup {
-    constructor( options = {} ) {
-        const o = options;
-        this.title = o.title, // String
-            this.isGroup = true, // Boolean
-            this.parent = o.parent || null, // dataItemGroup
-            this.groupChilds = new Map(), // Map
-            this.childs = [] // Array
-    }
+function dataItemGroup( options ) {
+    let o = options;
+    let defaults = {
+        title: '',
+        childGroups: null,
+        groupSettings: null,
+        parent: null,
+        childs: [],
+        level: 0
+        //lastGroup: null
+    };
+    Object.assign( defaults, o );
+    return defaults;
 }
 
 
 export const store = new Vuex.Store( {
     strict: process.env.NODE_ENV !== 'production',
     state: {
+        fildKey: 'PointId',
         groups: [
-            new group( { field: 'MyRole' } ),
             new group( { field: 'LevelPointName' } ),
-            new group( { field: 'IndicatorTitle' } )
+            new group( { field: 'IndicatorTitle' } ),
+            new group( { field: 'MyRole' } )
         ],
         columns: [
             new column( { field: 'Code' } ),
@@ -110,7 +115,7 @@ export const store = new Vuex.Store( {
             new sorting( { field: 'Code' } )
         ],
         rowsHeader: [],
-        rowsBody: [],
+        rowsBody: {},
         rowsFooter: []
     },
     getters: {
@@ -163,42 +168,44 @@ export const store = new Vuex.Store( {
                 const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( getters.createSort );
 
                 //const groupMap = new Map();
-                const roots = {};
                 let { groups } = state;
 
-                for ( let dataRow of sortDataRowsBody ) {
-                    let keyGroup = getKeyGroup( dataRow );
-                    let root = roots[keyGroup];
+                let firstGroup = groups[0];
+                const rootGroups = {};
+                for ( const row of sortDataRowsBody ) {
+                    let groupTitle = row[firstGroup.field];
+                    let root = rootGroups[groupTitle];
                     if ( !root ) {
-                        root = roots[keyGroup] = {
-                            childs: []
-                        };
-                        groups.reduce( function ( r, group ) {
-                            r.groups = r.groups || [];
-                            r.groups.push({
-                                title: dataRow[group.field]
-                            });
-
-                            return r;
-                        } , root);
+                        root = rootGroups[groupTitle] = new dataItemGroup( {
+                            title: groupTitle,
+                            groupSettings: firstGroup,
+                            childGroups: {}
+                        } );
                     }
-                    root.childs.push( dataRow );
-                }
 
-                function getKeyGroup( dataRow ) {
-                    let concatTitleGroup;
-                    concatTitleGroup = groups.reduce( function ( st, group ) {
-                        st += dataRow[group.field];
-                        return st;
-                    }, '' );
-                    return concatTitleGroup;
+                    let parentGroup = root;
+                    for ( let i = 1; i < groups.length; i++ ) {
+                        let group = groups[i];
+                        let titleGroup = row[group.field];
+                        if ( !parentGroup.childGroups[titleGroup] ) {
+                            parentGroup.childGroups[titleGroup] = new dataItemGroup( {
+                                title: titleGroup,
+                                groupSettings: group,
+                                parent: parentGroup,
+                                level: i,
+                                childGroups: (i == groups.length - 1 ? null : {})
+                            } );
+                        }
+                        parentGroup = parentGroup.childGroups[titleGroup];
+                    }
+                    //root.lastGroup = parentGroup;
+                    parentGroup.childs.push( row );
                 }
-
 
                 debugger;
                 //commit( 'dataRowsBody', sortDataRowsBody );
-                commit( 'dataRowsBody', roots );
-            }, 50 );
+                commit( 'dataRowsBody', rootGroups );
+            }, 0 );
 
         },
         getRowsFooter( { commit } ) {
@@ -211,7 +218,7 @@ export const store = new Vuex.Store( {
             ];
             setTimeout( () => {
                 commit( 'dataRowsFooter', dataRowsFooter );
-            }, 2000 )
+            }, 0 )
         }
     }
 

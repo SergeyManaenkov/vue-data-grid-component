@@ -1,10 +1,9 @@
 <template>
-
         <tbody>
         <grid-body-row
-                v-for="(row, index) in rows"
+                v-for="(groupData, key, index) in rows"
                 :key="index"
-                v-bind:row="row"
+                v-bind:groupData="groupData"
         ></grid-body-row>
         </tbody>
 </template>

@@ -1,10 +1,15 @@
 import 'es6-promise/auto'; // т.к. для VUEX нужна поддержка promise, а в IE promise неподдерживается. Подключаем библиотеку-полефил
 require( 'es6-object-assign' ).polyfill();// IE 11 не поддерживает Object.assign
+import 'es6-map';
+
+require( 'es6-set/implement' );
 
 import { createSorting } from "../utility"
 
 import Vue from 'vue';
 import Vuex from 'vuex';
+
+import demoData from './demo-data';
 
 // Подключаем плагин
 Vue.use( Vuex );
@@ -49,59 +54,75 @@ class group {
 
 }
 
+/* Создает экземпляр сортировки */
+class sorting {
+    constructor( options = {} ) {
+        let defaultOptions = {
+            field: null,
+            sorting: {
+                ignoreCase: true,// false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
+                direction: undefined // undefined: asc | -1: desc
+            }
+        };
+
+        Object.assign( this, defaultOptions, options );
+    }
+}
+
+/* Создает экземпляр строки данных */
 class dataItem {
-    constructor( data ) {
-        this.item = data;
+    constructor( options = {} ) {
+        Object.assign( this, options );
     }
-
 }
 
+/* Создает экземпляр строки данных */
 class dataItemGroup {
-    constructor( title, group ) {
-        this.title = title;
-        this.group = group;
-        this.items = [];
-        this.LevelItem = 0;
-        this.isGroup = true;
+    constructor( options = {} ) {
+        const o = options;
+        this.title = o.title, // String
+            this.isGroup = true, // Boolean
+            this.parent = o.parent || null, // dataItemGroup
+            this.groupChilds = new Map(), // Map
+            this.childs = [] // Array
     }
-
 }
+
 
 export const store = new Vuex.Store( {
     strict: process.env.NODE_ENV !== 'production',
     state: {
         groups: [
-            new group( { field: 'text' } )
+            new group( { field: 'MyRole' } ),
+            new group( { field: 'LevelPointName' } ),
+            new group( { field: 'IndicatorTitle' } )
         ],
         columns: [
-            new column( { field: 'text' } ),
-            new column( { field: 'name', require: true, colspan: 2 } ),
-            new column( { field: 'state' } ),
+            new column( { field: 'Code' } ),
+            new column( { field: 'MyRole' } ),
+            new column( { field: 'LevelPointName' } ),
+            new column( { field: 'IndicatorTitle', require: true, colspan: 2 } ),
             new column( {
-                field: 'amount', type: 'numeral', format: '0,0.[000000]'
+                field: 'PlanDateDiff', type: 'numeral', format: '0,0.[000000]'
             } )
+        ],
+        sortingColumns: [
+            new sorting( { field: 'Code' } )
         ],
         rowsHeader: [],
         rowsBody: [],
-        rowsFooter: [],
-        getSettingsSorting: ( { groups, columns } ) => {
-            let settingsSorting = groups || [];
-            for ( const column of columns ) {
-                if ( column.sorting ) {
-                    settingsSorting.push( column );
-                }
-            }
-            return settingsSorting;
-        },
-        createSort: ( state ) => {
-            const settingsSortings = state.getSettingsSorting( state );
-            if ( settingsSortings.length ) {
-                return createSorting( settingsSortings );
+        rowsFooter: []
+    },
+    getters: {
+        createSort: ( { sortingColumns, groups } ) => {
+            let settingsSorting = (groups || []).concat( (sortingColumns || []) );
+
+            if ( settingsSorting.length ) {
+                return createSorting( settingsSorting );
             }
             return undefined;
         }
     },
-    getters: {},
     mutations: {
         dataRowsHeader( state, dataRowsHeader = [] ) {
             state.rowsHeader = dataRowsHeader;
@@ -117,14 +138,16 @@ export const store = new Vuex.Store( {
         getRowsHeader( { commit } ) {
             let dataRowsHeader = [
                 {
-                    text: 'Header text',
-                    name: 'Header name',
-                    state: 'Header state'
+                    Code: 'Header text',
+                    IndicatorTitle: 'Header name',
+                    LevelPointName: 'Header state',
+                    PlanDateDiff: 'PlanDateDiff'
                 },
                 {
-                    text: 'Header text 2',
-                    name: 'Header name 2',
-                    state: 'Header state 2'
+                    Code: 'Header text 2',
+                    IndicatorTitle: 'Header name 2',
+                    LevelPointName: 'Header state 2',
+                    PlanDateDiff: 'PlanDateDiff 2'
                 }
             ];
             setTimeout( () => {
@@ -132,108 +155,50 @@ export const store = new Vuex.Store( {
             }, 0 )
 
         },
-        getRowsBody( { commit, state } ) {
-            let dataRowsBody = [
-                {
-                    text: 'a',
-                    name: 'td name 1',
-                    state: 'тест state 1',
-                    amount: 1234567890.987654321
-                },
-                {
-                    text: '1',
-                    name: '3',
-                    state: 'тест state 2',
-                    amount: 2
-                },
-                {
-                    text: '1',
-                    name: '2',
-                    state: 'тест state 2',
-                    amount: 2
-                },
-                {
-                    text: '1',
-                    name: '3',
-                    state: 'тест state 2',
-                    amount: 0
-                },
-                {
-                    text: '1',
-                    name: 'null',
-                    state: null,
-                    amount: null
-                }
-            ];
+        getRowsBody( { commit, state, getters } ) {
+            let dataRowsBody = demoData;
 
             setTimeout( () => {
-                // Создаем функцию множественной сортировки на основании настроек взятых из групировок и колонок
-                const sort = state.createSort( state );
-/////////////////////////////////////////////////////////////
                 // Сортируем данные
-                const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( sort );
+                const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( getters.createSort );
 
-                function getRoots( settings, dataCopy ) {
-                    var roots = [];
-                    for ( var i = 0; i < dataCopy.length; i++ ) {
-                        var item = dataCopy[i];
-                        if ( !item[settings.treeOptions.columnParentId] ) {
-                            item.LevelItem = 0;
-                            roots.push( item );
-                            dataCopy.splice( i, 1 );
-                            i--;
-                        }
+                //const groupMap = new Map();
+                const roots = {};
+                let { groups } = state;
+
+                for ( let dataRow of sortDataRowsBody ) {
+                    let keyGroup = getKeyGroup( dataRow );
+                    let root = roots[keyGroup];
+                    if ( !root ) {
+                        root = roots[keyGroup] = {
+                            childs: []
+                        };
+                        groups.reduce( function ( r, group ) {
+                            r.groups = r.groups || [];
+                            r.groups.push({
+                                title: dataRow[group.field]
+                            });
+
+                            return r;
+                        } , root);
                     }
-                    if ( settings.treeOptions && settings.treeOptions.sortRoot && settings.treeOptions.sortRoot.columns ) {
-                        roots.sort( createFuncSort( settings ) );
-                    }
-                    if ( roots.length )
-                        return roots
-                    else
-                        return undefined;
+                    root.childs.push( dataRow );
                 }
 
-                function getChildsForParent( settings, parentItem, dataCopy ) {
-                    var parents = [];
-                    for ( var i = 0; i < dataCopy.length; i++ ) {
-                        var item = dataCopy[i];
-                        if ( item[settings.treeOptions.columnParentId] == parentItem[settings.treeOptions.columnId] ) {
-                            item.LevelItem = parentItem.LevelItem + 1
-                            item.parentItem = parentItem;
-                            parents.push( item );
-                            dataCopy.splice( i, 1 );
-                            i--;
-                        }
-                    }
-                    if ( settings.treeOptions && settings.treeOptions.sortChilds && settings.treeOptions.sortChilds.columns ) {
-                        parents.sort( createFuncSort( settings ) );
-                    }
-                    return parents;
-                }
-
-                let { groups, columns } = state;
-                if ( groups && groups.length && dataRowsBody.length ) {
-
-                    const dataRowsBodyCopy = dataRowsBody.slice( 0 );
-
-                    let currentTitleGroup = '';
-                    const rootDataGroup = [];
-                    let rootSet = new Set();
-
-                    groups.forEach( function ( _group ) {
-                        for ( let i = 0; i < dataRowsBodyCopy.length; i++ ) {
-                            let item = dataRowsBodyCopy[i];
-
-                            rootSet.add( item[_group.field] );
-
-                        }
-                    } );
+                function getKeyGroup( dataRow ) {
+                    let concatTitleGroup;
+                    concatTitleGroup = groups.reduce( function ( st, group ) {
+                        st += dataRow[group.field];
+                        return st;
+                    }, '' );
+                    return concatTitleGroup;
                 }
 
 
-////////////////////////////////////////////////////////////////////////
-                commit( 'dataRowsBody', sortDataRowsBody );
-            }, 1000 );
+                debugger;
+                //commit( 'dataRowsBody', sortDataRowsBody );
+                commit( 'dataRowsBody', roots );
+            }, 50 );
 
         },
         getRowsFooter( { commit } ) {

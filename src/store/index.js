@@ -85,13 +85,12 @@ function dataItemGroup( options ) {
         groupSettings: null,
         parent: null,
         childs: [],
-        level: 0
-        //lastGroup: null
+        level: 0,
+        isGroup: true
     };
     Object.assign( defaults, o );
     return defaults;
 }
-
 
 export const store = new Vuex.Store( {
     strict: process.env.NODE_ENV !== 'production',
@@ -170,40 +169,44 @@ export const store = new Vuex.Store( {
                 //const groupMap = new Map();
                 let { groups } = state;
 
-                let firstGroup = groups[0];
                 const rootGroups = {};
-                for ( const row of sortDataRowsBody ) {
-                    let groupTitle = row[firstGroup.field];
-                    let root = rootGroups[groupTitle];
-                    if ( !root ) {
-                        root = rootGroups[groupTitle] = new dataItemGroup( {
-                            title: groupTitle,
-                            groupSettings: firstGroup,
-                            childGroups: {}
-                        } );
-                    }
-
-                    let parentGroup = root;
-                    for ( let i = 1; i < groups.length; i++ ) {
-                        let group = groups[i];
-                        let titleGroup = row[group.field];
-                        if ( !parentGroup.childGroups[titleGroup] ) {
-                            parentGroup.childGroups[titleGroup] = new dataItemGroup( {
-                                title: titleGroup,
-                                groupSettings: group,
-                                parent: parentGroup,
-                                level: i,
-                                childGroups: (i == groups.length - 1 ? null : {})
+                if ( groups.length ) {
+                    let firstGroup = groups[0];
+                    for ( const row of sortDataRowsBody ) {
+                        let groupTitle = row[firstGroup.field];
+                        let root = rootGroups[groupTitle];
+                        if ( !root ) {
+                            root = rootGroups[groupTitle] = new dataItemGroup( {
+                                title: groupTitle,
+                                groupSettings: firstGroup,
+                                childGroups: {}
                             } );
                         }
-                        parentGroup = parentGroup.childGroups[titleGroup];
+
+                        let parentGroup = root;
+                        for ( let i = 1; i < groups.length; i++ ) {
+                            let group = groups[i];
+                            let titleGroup = row[group.field];
+                            if ( !parentGroup.childGroups[titleGroup] ) {
+                                parentGroup.childGroups[titleGroup] = new dataItemGroup( {
+                                    title: titleGroup,
+                                    groupSettings: group,
+                                    parent: parentGroup,
+                                    level: i,
+                                    childGroups: (i == groups.length - 1 ? null : {})
+                                } );
+                            }
+                            parentGroup = parentGroup.childGroups[titleGroup];
+                        }
+                        parentGroup.childs.push( row );
                     }
-                    //root.lastGroup = parentGroup;
-                    parentGroup.childs.push( row );
+                }else{
+                    rootGroups[0] = {
+                        childs: sortDataRowsBody
+                    };
                 }
 
                 debugger;
-                //commit( 'dataRowsBody', sortDataRowsBody );
                 commit( 'dataRowsBody', rootGroups );
             }, 0 );
 

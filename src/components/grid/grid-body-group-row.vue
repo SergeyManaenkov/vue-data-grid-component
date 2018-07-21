@@ -1,19 +1,24 @@
 <template>
 
     <div>
-        <tr>
+        <tr v-if="row.isGroup">
             <grid-body-group-cell
                     :row="row"
                     :colspan="colspan"
             ></grid-body-group-cell>
         </tr>
 
-        <grid-body-group-row
-                v-for="(rowObj) in row.childGroups"
-                :row="rowObj"
-        ></grid-body-group-row>
         <template
-                v-if="row.childs.length"
+                v-if="row.childGroups"
+        >
+            <grid-body-group-row
+                    v-for="(rowObj) in row.childGroups"
+                    :row="rowObj"
+            ></grid-body-group-row>
+        </template>
+
+        <template
+                v-if="isChilds"
         >
             <grid-body-child-row
                     v-for="(rowChild) in row.childs"
@@ -40,14 +45,13 @@
         },
         computed: {
             ...mapState( [
-                'columns',
-                'fieldKey'
+                'columns'
             ] ),
             colspan() {
                 return this.columns.length;
             },
-            isChildGroups() {
-                return !!this.row.childGroups;
+            isChilds() {
+                return this.row.childs && !!this.row.childs.length;
             }
         }
     }

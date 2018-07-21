@@ -16,11 +16,9 @@
             ] ),*/
             text() {
                 let { row } = this;
-                debugger;
                 return row.title;
             },
             indent() {
-                debugger;
                 return (this.row.level * 15) + 'px';
             }
         }

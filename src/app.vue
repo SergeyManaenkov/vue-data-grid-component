@@ -5,11 +5,10 @@
         ></grid-header>
 
         <tbody>
-            <template v-for="(rowGroupObj, keyGroupObj, indexGroupObj) in rowsBody">
                 <grid-body-group-row
+                        v-for="(rowGroupObj) in rowsBody"
                         :row="rowGroupObj"
                 ></grid-body-group-row>
-            </template>
         </tbody>
 
         <grid-footer
@@ -37,8 +36,7 @@
             ...mapState( [
                 'rowsHeader',
                 'rowsBody',
-                'rowsFooter',
-                'fieldKey'
+                'rowsFooter'
             ] )
         },
         methods: {

@@ -1,9 +1,7 @@
 <template >
-    <th
-
-    >
+    <div class="col">
         {{ text }}
-    </th>
+    </div>
 </template>
 
 <script>

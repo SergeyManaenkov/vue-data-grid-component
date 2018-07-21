@@ -1,13 +1,15 @@
 <template>
 
-    <div>
-        <tr v-if="row.isGroup">
+    <div class="container-group">
+        <!-- Отрисовываем группировку -->
+        <div class="row font-weight-bold bg-light" v-if="row.isGroup">
             <grid-body-group-cell
                     :row="row"
                     :colspan="colspan"
             ></grid-body-group-cell>
-        </tr>
+        </div>
 
+        <!-- Дочерние группировки, усли они есть -->
         <template
                 v-if="row.childGroups"
         >
@@ -17,6 +19,7 @@
             ></grid-body-group-row>
         </template>
 
+        <!-- Выводим детей группировки, если они есть -->
         <template
                 v-if="isChilds"
         >
@@ -37,10 +40,10 @@
 
 
     export default {
-        name: 'grid-body-group-row',
+        name: 'grid-body-group-row',/* т.к. данные компанент вызывается рекурсивно, нужно задать назвнаине компанента */
         props: ["row", 'index'],
         components: {
-            GridBodyGroupCell,/*: import ('./grid-cell')*/
+            GridBodyGroupCell,
             GridBodyChildRow
         },
         computed: {

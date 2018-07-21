@@ -113,6 +113,7 @@ export const store = new Vuex.Store( {
         sortingColumns: [
             new sorting( { field: 'Code' } )
         ],
+        defaultIndent: 15,
         rowsHeader: [],
         rowsBody: {},
         rowsFooter: []
@@ -143,12 +144,14 @@ export const store = new Vuex.Store( {
             let dataRowsHeader = [
                 {
                     Code: 'Header text',
+                    MyRole: 'Моя роль',
                     IndicatorTitle: 'Header name',
                     LevelPointName: 'Header state',
                     PlanDateDiff: 'PlanDateDiff'
                 },
                 {
                     Code: 'Header text 2',
+                    MyRole: 'Моя роль',
                     IndicatorTitle: 'Header name 2',
                     LevelPointName: 'Header state 2',
                     PlanDateDiff: 'PlanDateDiff 2'
@@ -204,7 +207,7 @@ export const store = new Vuex.Store( {
                         childs: sortDataRowsBody
                     };
                 }
-
+                debugger;
                 commit( 'dataRowsBody', rootGroups );
             }, 0 );
 

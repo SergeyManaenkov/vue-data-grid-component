@@ -1,12 +1,12 @@
 <template>
-    <tr>
+    <div class="row">
         <grid-cell
                 v-bind:row="row"
                 v-for="(column, index) in columns"
                 :key="index"
                 v-bind:column="column"
         ></grid-cell>
-    </tr>
+    </div>
 </template>
 
 <script>

@@ -1,25 +1,25 @@
 <template>
-    <th :colspan="colspan">
+    <div class="col" :colspan="colspan">
         <span :style="{marginLeft: indent}">{{ text }}</span>
-    </th>
+    </div>
 </template>
 
 <script>
     import { numeral } from '../../utility';
-    /*import { mapState } from 'vuex';*/
+    import { mapState } from 'vuex';
 
     export default {
         props: ["row", "colspan"],
         computed: {
-            /*...mapState( [
-                'groups'
-            ] ),*/
+            ...mapState( [
+                'defaultIndent'
+            ] ),
             text() {
                 let { row } = this;
                 return row.title;
             },
             indent() {
-                return (this.row.level * 15) + 'px';
+                return (this.row.level * this.defaultIndent) + 'px';
             }
         }
     }

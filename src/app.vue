@@ -1,20 +1,18 @@
 <template>
-    <table class="table table-hover table-bordered table-sm">
+    <div class="">
         <grid-header
-                v-bind:rows="rowsHeader"
+                :rows="rowsHeader"
         ></grid-header>
 
-        <tbody>
-                <grid-body-group-row
-                        v-for="(rowGroupObj) in rowsBody"
-                        :row="rowGroupObj"
-                ></grid-body-group-row>
-        </tbody>
+        <grid-body-group-row
+                v-for="(rowGroupObj) in rowsBody"
+                :row="rowGroupObj"
+        ></grid-body-group-row>
 
         <grid-footer
-                v-bind:rows="rowsFooter"
+                :rows="rowsFooter"
         ></grid-footer>
-    </table>
+    </div>
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
-    <td>
+    <div class="col border">
         {{ text }}
-    </td>
+    </div>
 </template>
 
 <script>

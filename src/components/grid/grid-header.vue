@@ -1,11 +1,14 @@
 <template>
-    <thead class="thead-default">
-    <grid-header-row
-            v-for="(row, index) in rows"
-            :key="index"
-            :row="row"
-    ></grid-header-row>
-    </thead>
+
+    <div class="container-header border-top border-bottom font-weight-bold bg-secondary">
+        <grid-header-row
+                v-for="(row, index) in rows"
+                :key="index"
+                :row="row"
+        ></grid-header-row>
+    </div>
+
+
 </template>
 
 <script>

@@ -1,11 +1,14 @@
 <template>
-<tfoot>
-<grid-footer-row
-        v-for="(row, index) in rows"
-        :key="index"
-        v-bind:row="row"
-></grid-footer-row>
-</tfoot>
+
+    <div class="container-footer">
+        <grid-footer-row
+                v-for="(row, index) in rows"
+                :key="index"
+                v-bind:row="row"
+        ></grid-footer-row>
+    </div>
+
+
 </template>
 
 

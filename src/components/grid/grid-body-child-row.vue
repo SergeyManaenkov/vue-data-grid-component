@@ -1,15 +1,12 @@
 <template>
-    <tr>
-        <template>
+    <div class="row" :style="{marginLeft: indent}">
             <grid-body-cell
                     v-for="(column, index) in columns"
 
                     :column="column"
                     :row="row"
             ></grid-body-cell>
-        </template>
-
-    </tr>
+    </div>
 </template>
 
 
@@ -24,8 +21,13 @@
         },
         computed: {
             ...mapState( [
-                'columns'
-            ] )
+                'columns',
+                'groups',
+                'defaultIndent'
+            ] ),
+            indent() {
+                return ( this.groups.length * this.defaultIndent) + 'px';
+            }
         }
     }
 </script>

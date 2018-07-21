@@ -1,8 +1,8 @@
 import 'es6-promise/auto'; // т.к. для VUEX нужна поддержка promise, а в IE promise неподдерживается. Подключаем библиотеку-полефил
 require( 'es6-object-assign' ).polyfill();// IE 11 не поддерживает Object.assign
-import 'es6-map';
+/*import 'es6-map';
 
-require( 'es6-set/implement' );
+require( 'es6-set/implement' );*/
 
 import { createSorting } from "../utility"
 
@@ -76,7 +76,7 @@ class dataItem {
     }
 }
 
-/* Создает экземпляр строки данных */
+/* Создает экземпляр строки данных для группирующего элемента */
 function dataItemGroup( options ) {
     let o = options;
     let defaults = {
@@ -166,7 +166,6 @@ export const store = new Vuex.Store( {
                 // Сортируем данные
                 const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( getters.createSort );
 
-                //const groupMap = new Map();
                 let { groups } = state;
 
                 const rootGroups = {};
@@ -206,7 +205,6 @@ export const store = new Vuex.Store( {
                     };
                 }
 
-                debugger;
                 commit( 'dataRowsBody', rootGroups );
             }, 0 );
 

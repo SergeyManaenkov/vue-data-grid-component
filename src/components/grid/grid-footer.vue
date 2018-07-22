@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container-footer">
+    <div class="container-footer border font-weight-bold bg-light">
         <grid-footer-row
                 v-for="(row, index) in rows"
                 :key="index"

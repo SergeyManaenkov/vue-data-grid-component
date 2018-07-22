@@ -120,7 +120,7 @@ export const store = new Vuex.Store( {
         rowsFooter: []
     },
     getters: {
-        createSort: ( { sortingColumns, groups } ) => {
+        sort: ( { sortingColumns, groups } ) => {
             let settingsSorting = (groups || []).concat( (sortingColumns || []) );
 
             if ( settingsSorting.length ) {
@@ -174,7 +174,7 @@ export const store = new Vuex.Store( {
 
             setTimeout( () => {
                 // Сортируем данные
-                const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( getters.createSort );
+                const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( getters.sort );
 
                 let { groups } = state;
 

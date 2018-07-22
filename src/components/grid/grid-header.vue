@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container-header border-top border-bottom font-weight-bold bg-secondary">
+    <div class="container-header border font-weight-bold bg-light">
         <grid-header-row
                 v-for="(row, index) in rows"
                 :key="index"

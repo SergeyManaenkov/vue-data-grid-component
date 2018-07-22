@@ -43,6 +43,7 @@ class group {
             field: null,
             type: 'string',// string | numeral |
             format: null,
+            isOpen: true,
             sorting: {
                 ignoreCase: true, // false: сортировать с учетом прописных букв | true: сортировать без учетом прописных букв
                 direction: undefined // undefined: asc | -1: desc
@@ -86,6 +87,7 @@ function dataItemGroup( options ) {
         parent: null,
         childs: [],
         level: 0,
+        isOpen: true,
         isGroup: true
     };
     Object.assign( defaults, o );
@@ -95,11 +97,10 @@ function dataItemGroup( options ) {
 export const store = new Vuex.Store( {
     strict: process.env.NODE_ENV !== 'production',
     state: {
-        fildKey: 'PointId',
         groups: [
             new group( { field: 'LevelPointName' } ),
-            new group( { field: 'IndicatorTitle' } ),
-            new group( { field: 'MyRole' } )
+            new group( { field: 'IndicatorTitle', isOpen: false } ),
+            new group( { field: 'MyRole', isOpen: true } )
         ],
         columns: [
             new column( { field: 'Code' } ),
@@ -113,7 +114,7 @@ export const store = new Vuex.Store( {
         sortingColumns: [
             new sorting( { field: 'Code' } )
         ],
-        defaultIndent: 15,
+        defaultIndent: 17,
         rowsHeader: [],
         rowsBody: {},
         rowsFooter: []
@@ -129,6 +130,9 @@ export const store = new Vuex.Store( {
         }
     },
     mutations: {
+        setOpenGroup( state, rowGroup ) {
+            rowGroup.isOpen = !rowGroup.isOpen;
+        },
         dataRowsHeader( state, dataRowsHeader = [] ) {
             state.rowsHeader = dataRowsHeader;
         },
@@ -140,6 +144,9 @@ export const store = new Vuex.Store( {
         }
     },
     actions: {
+        setOpenGroup( { commit }, rowGroup ) {
+            commit( 'setOpenGroup', rowGroup )
+        },
         getRowsHeader( { commit } ) {
             let dataRowsHeader = [
                 {
@@ -181,6 +188,7 @@ export const store = new Vuex.Store( {
                             root = rootGroups[groupTitle] = new dataItemGroup( {
                                 title: groupTitle,
                                 groupSettings: firstGroup,
+                                isOpen: firstGroup.isOpen,
                                 childGroups: {}
                             } );
                         }
@@ -195,19 +203,21 @@ export const store = new Vuex.Store( {
                                     groupSettings: group,
                                     parent: parentGroup,
                                     level: i,
+                                    isOpen: group.isOpen,
                                     childGroups: (i == groups.length - 1 ? null : {})
                                 } );
                             }
                             parentGroup = parentGroup.childGroups[titleGroup];
                         }
+                        row.parent = parentGroup;
                         parentGroup.childs.push( row );
                     }
-                }else{
+                } else {
                     rootGroups[0] = {
                         childs: sortDataRowsBody
                     };
                 }
-                debugger;
+
                 commit( 'dataRowsBody', rootGroups );
             }, 0 );
 

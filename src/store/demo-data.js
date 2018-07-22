@@ -1,37 +1,36 @@
-
-export default [
-        {
-            "id": 1,
-            "ParentActivity": "10-000-012. Программа ЖРД",
-            "IndicatorOrder": 1,
-            "IndicatorColor": "#ff6666",
-            "IndicatorId": "3",
-            "IndicatorTitle": "Просрочено",
-            "PointId": 192457,
-            "Code": "30-002-488",
-            "Name": "345",
-            "PlanDate": "/Date(1523491200000)/",
-            "FactDate": "",
-            "PlanDateDiff": -98,
-            "PointLeader": "тест Менеджер проекта",
-            "Responsible": "",
-            "PointStateId": 10012,
-            "PointStateName": "Запланирована",
-            "PointTypeId": 3,
-            "PointTypeName": "Уровень 0",
-            "MEKIndicatorId": 0,
-            "MEKIndicatorTitle": "В работе по плану",
-            "TermId": 0,
-            "TermName": "Не проставлен",
-            "IsPBS": false,
-            "PointParentName": "",
-            "LevelPointId": 1,
-            "LevelPointName": "Уровень 0",
-            "LevelPointPMC": "0,1",
-            "isOwnerOrLeader": true,
-            "MyRole": "Контактное лицо"
-        }, {
-    "id": 2,
+let data = [
+    {
+        "id": 1,
+        "ParentActivity": "10-000-012. Программа ЖРД",
+        "IndicatorOrder": 1,
+        "IndicatorColor": "#ff6666",
+        "IndicatorId": "3",
+        "IndicatorTitle": "Просрочено",
+        "PointId": 192457,
+        "Code": "30-002-488",
+        "Name": "345",
+        "PlanDate": "/Date(1523491200000)/",
+        "FactDate": "",
+        "PlanDateDiff": -98,
+        "PointLeader": "тест Менеджер проекта",
+        "Responsible": "",
+        "PointStateId": 10012,
+        "PointStateName": "Запланирована",
+        "PointTypeId": 3,
+        "PointTypeName": "Уровень 0",
+        "MEKIndicatorId": 0,
+        "MEKIndicatorTitle": "В работе по плану",
+        "TermId": 0,
+        "TermName": "Не проставлен",
+        "IsPBS": false,
+        "PointParentName": "",
+        "LevelPointId": 1,
+        "LevelPointName": "Уровень 0",
+        "LevelPointPMC": "0,1",
+        "isOwnerOrLeader": true,
+        "MyRole": "Контактное лицо"
+    }, {
+        "id": 2,
         "ParentActivity": "10-000-012. Программа ЖРД",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -60,8 +59,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 3,
+    }, {
+        "id": 3,
         "ParentActivity": "10-000-012. Программа ЖРД",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -90,8 +89,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 4,
+    }, {
+        "id": 4,
         "ParentActivity": "10-000-013. Программа А",
         "IndicatorOrder": 10,
         "IndicatorColor": "#718396",
@@ -120,8 +119,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 5,
+    }, {
+        "id": 5,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -150,8 +149,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 6,
+    }, {
+        "id": 6,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -180,8 +179,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 7,
+    }, {
+        "id": 7,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -210,8 +209,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 8,
+    }, {
+        "id": 8,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -240,8 +239,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 9,
+    }, {
+        "id": 9,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -270,8 +269,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 10,
+    }, {
+        "id": 10,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -300,8 +299,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 11,
+    }, {
+        "id": 11,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -330,8 +329,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 12,
+    }, {
+        "id": 12,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -360,8 +359,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 13,
+    }, {
+        "id": 13,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -390,8 +389,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 14,
+    }, {
+        "id": 14,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -420,8 +419,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 15,
+    }, {
+        "id": 15,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -450,8 +449,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 16,
+    }, {
+        "id": 16,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -480,8 +479,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 17,
+    }, {
+        "id": 17,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -510,8 +509,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 18,
+    }, {
+        "id": 18,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -540,8 +539,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 19,
+    }, {
+        "id": 19,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -570,8 +569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 20,
+    }, {
+        "id": 20,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -600,8 +599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 21,
+    }, {
+        "id": 21,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -630,8 +629,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 22,
+    }, {
+        "id": 22,
         "ParentActivity": "20-000-000. 000 Разработка ИС Каприкорн ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -660,8 +659,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 23,
+    }, {
+        "id": 23,
         "ParentActivity": "20-000-001. Проект 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -690,8 +689,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 24,
+    }, {
+        "id": 24,
         "ParentActivity": "20-000-001. Проект 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -720,8 +719,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 25,
+    }, {
+        "id": 25,
         "ParentActivity": "20-000-001. Проект 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -750,8 +749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 26,
+    }, {
+        "id": 26,
         "ParentActivity": "20-000-001. Проект 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -780,8 +779,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 27,
+    }, {
+        "id": 27,
         "ParentActivity": "20-000-001. Проект 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -810,8 +809,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 28,
+    }, {
+        "id": 28,
         "ParentActivity": "20-000-001. Проект 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -840,8 +839,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 29,
+    }, {
+        "id": 29,
         "ParentActivity": "20-000-001. Проект 2",
         "IndicatorOrder": 11,
         "IndicatorColor": "#718396",
@@ -870,8 +869,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 30,
+    }, {
+        "id": 30,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -900,8 +899,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 31,
+    }, {
+        "id": 31,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -930,8 +929,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 32,
+    }, {
+        "id": 32,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -960,8 +959,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 33,
+    }, {
+        "id": 33,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -990,8 +989,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 34,
+    }, {
+        "id": 34,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1020,8 +1019,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 35,
+    }, {
+        "id": 35,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1050,8 +1049,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 36,
+    }, {
+        "id": 36,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1080,8 +1079,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 37,
+    }, {
+        "id": 37,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1110,8 +1109,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 38,
+    }, {
+        "id": 38,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1140,8 +1139,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 39,
+    }, {
+        "id": 39,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1170,8 +1169,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 40,
+    }, {
+        "id": 40,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1200,8 +1199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 41,
+    }, {
+        "id": 41,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1230,8 +1229,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 42,
+    }, {
+        "id": 42,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -1260,8 +1259,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 43,
+    }, {
+        "id": 43,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -1290,8 +1289,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 44,
+    }, {
+        "id": 44,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -1320,8 +1319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 45,
+    }, {
+        "id": 45,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -1350,8 +1349,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 46,
+    }, {
+        "id": 46,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -1380,8 +1379,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 47,
+    }, {
+        "id": 47,
         "ParentActivity": "20-000-002. Проект 3",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -1410,8 +1409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 48,
+    }, {
+        "id": 48,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1440,8 +1439,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 49,
+    }, {
+        "id": 49,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1470,8 +1469,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 50,
+    }, {
+        "id": 50,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1500,8 +1499,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 51,
+    }, {
+        "id": 51,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1530,8 +1529,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 52,
+    }, {
+        "id": 52,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1560,8 +1559,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 53,
+    }, {
+        "id": 53,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1590,8 +1589,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 54,
+    }, {
+        "id": 54,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1620,8 +1619,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 55,
+    }, {
+        "id": 55,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1650,8 +1649,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 56,
+    }, {
+        "id": 56,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1680,8 +1679,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 57,
+    }, {
+        "id": 57,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1710,8 +1709,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 58,
+    }, {
+        "id": 58,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1740,8 +1739,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 59,
+    }, {
+        "id": 59,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1770,8 +1769,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 60,
+    }, {
+        "id": 60,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1800,8 +1799,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 61,
+    }, {
+        "id": 61,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1830,8 +1829,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 62,
+    }, {
+        "id": 62,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1860,8 +1859,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 63,
+    }, {
+        "id": 63,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1890,8 +1889,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 64,
+    }, {
+        "id": 64,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1920,8 +1919,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 65,
+    }, {
+        "id": 65,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1950,8 +1949,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 66,
+    }, {
+        "id": 66,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -1980,8 +1979,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 67,
+    }, {
+        "id": 67,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2010,8 +2009,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 68,
+    }, {
+        "id": 68,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2040,8 +2039,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 69,
+    }, {
+        "id": 69,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2070,8 +2069,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 70,
+    }, {
+        "id": 70,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2100,8 +2099,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 71,
+    }, {
+        "id": 71,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2130,8 +2129,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 72,
+    }, {
+        "id": 72,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2160,8 +2159,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 73,
+    }, {
+        "id": 73,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2190,8 +2189,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 74,
+    }, {
+        "id": 74,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2220,8 +2219,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 75,
+    }, {
+        "id": 75,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2250,8 +2249,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 76,
+    }, {
+        "id": 76,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2280,8 +2279,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 77,
+    }, {
+        "id": 77,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2310,8 +2309,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 78,
+    }, {
+        "id": 78,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2340,8 +2339,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 79,
+    }, {
+        "id": 79,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2370,8 +2369,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 80,
+    }, {
+        "id": 80,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2400,8 +2399,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 81,
+    }, {
+        "id": 81,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2430,8 +2429,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 82,
+    }, {
+        "id": 82,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2460,8 +2459,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 83,
+    }, {
+        "id": 83,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2490,8 +2489,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 84,
+    }, {
+        "id": 84,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2520,8 +2519,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 85,
+    }, {
+        "id": 85,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2550,8 +2549,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 86,
+    }, {
+        "id": 86,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2580,8 +2579,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 87,
+    }, {
+        "id": 87,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2610,8 +2609,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 88,
+    }, {
+        "id": 88,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2640,8 +2639,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 89,
+    }, {
+        "id": 89,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2670,8 +2669,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 90,
+    }, {
+        "id": 90,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2700,8 +2699,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 91,
+    }, {
+        "id": 91,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2730,8 +2729,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 92,
+    }, {
+        "id": 92,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2760,8 +2759,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 93,
+    }, {
+        "id": 93,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2790,8 +2789,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 94,
+    }, {
+        "id": 94,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2820,8 +2819,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 95,
+    }, {
+        "id": 95,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2850,8 +2849,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 96,
+    }, {
+        "id": 96,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2880,8 +2879,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 97,
+    }, {
+        "id": 97,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2910,8 +2909,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 98,
+    }, {
+        "id": 98,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2940,8 +2939,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 99,
+    }, {
+        "id": 99,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -2970,8 +2969,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 100,
+    }, {
+        "id": 100,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3000,8 +2999,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 101,
+    }, {
+        "id": 101,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3030,8 +3029,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 102,
+    }, {
+        "id": 102,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3060,8 +3059,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 103,
+    }, {
+        "id": 103,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3090,8 +3089,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 104,
+    }, {
+        "id": 104,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3120,8 +3119,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 105,
+    }, {
+        "id": 105,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3150,8 +3149,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 106,
+    }, {
+        "id": 106,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3180,8 +3179,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 107,
+    }, {
+        "id": 107,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3210,8 +3209,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 108,
+    }, {
+        "id": 108,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3240,8 +3239,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 109,
+    }, {
+        "id": 109,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3270,8 +3269,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 110,
+    }, {
+        "id": 110,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3300,8 +3299,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 111,
+    }, {
+        "id": 111,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3330,8 +3329,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 112,
+    }, {
+        "id": 112,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3360,8 +3359,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 113,
+    }, {
+        "id": 113,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3390,8 +3389,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 114,
+    }, {
+        "id": 114,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3420,8 +3419,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 115,
+    }, {
+        "id": 115,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3450,8 +3449,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 116,
+    }, {
+        "id": 116,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3480,8 +3479,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 117,
+    }, {
+        "id": 117,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3510,8 +3509,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 118,
+    }, {
+        "id": 118,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3540,8 +3539,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 119,
+    }, {
+        "id": 119,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -3570,8 +3569,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 120,
+    }, {
+        "id": 120,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -3600,8 +3599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 121,
+    }, {
+        "id": 121,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -3630,8 +3629,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 122,
+    }, {
+        "id": 122,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -3660,8 +3659,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 123,
+    }, {
+        "id": 123,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -3690,8 +3689,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 124,
+    }, {
+        "id": 124,
         "ParentActivity": "20-000-003. 'Проект' \"4\"",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -3720,8 +3719,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 125,
+    }, {
+        "id": 125,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3750,8 +3749,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 126,
+    }, {
+        "id": 126,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3780,8 +3779,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 127,
+    }, {
+        "id": 127,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3810,8 +3809,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 128,
+    }, {
+        "id": 128,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3840,8 +3839,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 129,
+    }, {
+        "id": 129,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3870,8 +3869,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 130,
+    }, {
+        "id": 130,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3900,8 +3899,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 131,
+    }, {
+        "id": 131,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3930,8 +3929,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 132,
+    }, {
+        "id": 132,
         "ParentActivity": "20-000-004. Тест 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -3960,8 +3959,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 133,
+    }, {
+        "id": 133,
         "ParentActivity": "20-000-007. Проект для демонстрации (С очень длинным названием для проверки буллетов в отчёте на ЦПК часть 1 ылщшоа жыоужаоыужпоэкропфрк пркуп жлркупр лкрфплдатвидлтдвылоклдп дукп)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -3990,8 +3989,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 134,
+    }, {
+        "id": 134,
         "ParentActivity": "20-000-007. Проект для демонстрации (С очень длинным названием для проверки буллетов в отчёте на ЦПК часть 1 ылщшоа жыоужаоыужпоэкропфрк пркуп жлркупр лкрфплдатвидлтдвылоклдп дукп)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4020,8 +4019,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 135,
+    }, {
+        "id": 135,
         "ParentActivity": "20-000-007. Проект для демонстрации (С очень длинным названием для проверки буллетов в отчёте на ЦПК часть 1 ылщшоа жыоужаоыужпоэкропфрк пркуп жлркупр лкрфплдатвидлтдвылоклдп дукп)",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4050,8 +4049,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 136,
+    }, {
+        "id": 136,
         "ParentActivity": "20-000-007. Проект для демонстрации (С очень длинным названием для проверки буллетов в отчёте на ЦПК часть 1 ылщшоа жыоужаоыужпоэкропфрк пркуп жлркупр лкрфплдатвидлтдвылоклдп дукп)",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4080,8 +4079,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 137,
+    }, {
+        "id": 137,
         "ParentActivity": "20-000-007. Проект для демонстрации (С очень длинным названием для проверки буллетов в отчёте на ЦПК часть 1 ылщшоа жыоужаоыужпоэкропфрк пркуп жлркупр лкрфплдатвидлтдвылоклдп дукп)",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4110,8 +4109,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 138,
+    }, {
+        "id": 138,
         "ParentActivity": "20-000-007. Проект для демонстрации (С очень длинным названием для проверки буллетов в отчёте на ЦПК часть 1 ылщшоа жыоужаоыужпоэкропфрк пркуп жлркупр лкрфплдатвидлтдвылоклдп дукп)",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4140,8 +4139,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 139,
+    }, {
+        "id": 139,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4170,8 +4169,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 140,
+    }, {
+        "id": 140,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4200,8 +4199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 141,
+    }, {
+        "id": 141,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4230,8 +4229,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 142,
+    }, {
+        "id": 142,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4260,8 +4259,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 143,
+    }, {
+        "id": 143,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4290,8 +4289,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 144,
+    }, {
+        "id": 144,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4320,8 +4319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 145,
+    }, {
+        "id": 145,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4350,8 +4349,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 146,
+    }, {
+        "id": 146,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4380,8 +4379,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 147,
+    }, {
+        "id": 147,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4410,8 +4409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 148,
+    }, {
+        "id": 148,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4440,8 +4439,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 149,
+    }, {
+        "id": 149,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4470,8 +4469,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 150,
+    }, {
+        "id": 150,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4500,8 +4499,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 151,
+    }, {
+        "id": 151,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4530,8 +4529,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 152,
+    }, {
+        "id": 152,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4560,8 +4559,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 153,
+    }, {
+        "id": 153,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4590,8 +4589,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 154,
+    }, {
+        "id": 154,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4620,8 +4619,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 155,
+    }, {
+        "id": 155,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4650,8 +4649,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 156,
+    }, {
+        "id": 156,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4680,8 +4679,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 157,
+    }, {
+        "id": 157,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4710,8 +4709,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 158,
+    }, {
+        "id": 158,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4740,8 +4739,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 159,
+    }, {
+        "id": 159,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -4770,8 +4769,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 160,
+    }, {
+        "id": 160,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -4800,8 +4799,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 161,
+    }, {
+        "id": 161,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -4830,8 +4829,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 162,
+    }, {
+        "id": 162,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -4860,8 +4859,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 163,
+    }, {
+        "id": 163,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -4890,8 +4889,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 164,
+    }, {
+        "id": 164,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -4920,8 +4919,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 165,
+    }, {
+        "id": 165,
         "ParentActivity": "20-000-008. Проект ИТ1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -4950,8 +4949,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 166,
+    }, {
+        "id": 166,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -4980,8 +4979,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 167,
+    }, {
+        "id": 167,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5010,8 +5009,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 168,
+    }, {
+        "id": 168,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5040,8 +5039,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 169,
+    }, {
+        "id": 169,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5070,8 +5069,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 170,
+    }, {
+        "id": 170,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5100,8 +5099,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 171,
+    }, {
+        "id": 171,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5130,8 +5129,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 172,
+    }, {
+        "id": 172,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5160,8 +5159,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 173,
+    }, {
+        "id": 173,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5190,8 +5189,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 174,
+    }, {
+        "id": 174,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5220,8 +5219,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 175,
+    }, {
+        "id": 175,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5250,8 +5249,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 176,
+    }, {
+        "id": 176,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5280,8 +5279,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 177,
+    }, {
+        "id": 177,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5310,8 +5309,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 178,
+    }, {
+        "id": 178,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5340,8 +5339,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 179,
+    }, {
+        "id": 179,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5370,8 +5369,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 180,
+    }, {
+        "id": 180,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5400,8 +5399,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 181,
+    }, {
+        "id": 181,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5430,8 +5429,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 182,
+    }, {
+        "id": 182,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5460,8 +5459,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 183,
+    }, {
+        "id": 183,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -5490,8 +5489,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 184,
+    }, {
+        "id": 184,
         "ParentActivity": "20-000-010. Создание информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -5520,8 +5519,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 185,
+    }, {
+        "id": 185,
         "ParentActivity": "20-000-011. Модернизация информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5550,8 +5549,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 186,
+    }, {
+        "id": 186,
         "ParentActivity": "20-000-011. Модернизация информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5580,8 +5579,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 187,
+    }, {
+        "id": 187,
         "ParentActivity": "20-000-011. Модернизация информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5610,8 +5609,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 188,
+    }, {
+        "id": 188,
         "ParentActivity": "20-000-011. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -5640,8 +5639,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 189,
+    }, {
+        "id": 189,
         "ParentActivity": "20-000-018. Проект 12",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5670,8 +5669,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 190,
+    }, {
+        "id": 190,
         "ParentActivity": "20-000-018. Проект 12",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5700,8 +5699,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 191,
+    }, {
+        "id": 191,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5730,8 +5729,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 192,
+    }, {
+        "id": 192,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5760,8 +5759,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 193,
+    }, {
+        "id": 193,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5790,8 +5789,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 194,
+    }, {
+        "id": 194,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5820,8 +5819,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 195,
+    }, {
+        "id": 195,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5850,8 +5849,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 196,
+    }, {
+        "id": 196,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5880,8 +5879,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 197,
+    }, {
+        "id": 197,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -5910,8 +5909,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 198,
+    }, {
+        "id": 198,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5940,8 +5939,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 199,
+    }, {
+        "id": 199,
         "ParentActivity": "20-000-021. Тестовый проект 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -5970,8 +5969,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 200,
+    }, {
+        "id": 200,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6000,8 +5999,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 201,
+    }, {
+        "id": 201,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6030,8 +6029,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 202,
+    }, {
+        "id": 202,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6060,8 +6059,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 203,
+    }, {
+        "id": 203,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6090,8 +6089,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 204,
+    }, {
+        "id": 204,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6120,8 +6119,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 205,
+    }, {
+        "id": 205,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6150,8 +6149,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 206,
+    }, {
+        "id": 206,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -6180,8 +6179,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 207,
+    }, {
+        "id": 207,
         "ParentActivity": "20-000-022. Проект для демо чек-листов_",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -6210,8 +6209,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 208,
+    }, {
+        "id": 208,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6240,8 +6239,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 209,
+    }, {
+        "id": 209,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6270,8 +6269,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 210,
+    }, {
+        "id": 210,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6300,8 +6299,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 211,
+    }, {
+        "id": 211,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6330,8 +6329,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 212,
+    }, {
+        "id": 212,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6360,8 +6359,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 213,
+    }, {
+        "id": 213,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6390,8 +6389,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 214,
+    }, {
+        "id": 214,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6420,8 +6419,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 215,
+    }, {
+        "id": 215,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6450,8 +6449,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 216,
+    }, {
+        "id": 216,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6480,8 +6479,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 217,
+    }, {
+        "id": 217,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6510,8 +6509,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 218,
+    }, {
+        "id": 218,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6540,8 +6539,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 219,
+    }, {
+        "id": 219,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6570,8 +6569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 220,
+    }, {
+        "id": 220,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6600,8 +6599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 221,
+    }, {
+        "id": 221,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6630,8 +6629,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 222,
+    }, {
+        "id": 222,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6660,8 +6659,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 223,
+    }, {
+        "id": 223,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6690,8 +6689,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 224,
+    }, {
+        "id": 224,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6720,8 +6719,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 225,
+    }, {
+        "id": 225,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -6750,8 +6749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 226,
+    }, {
+        "id": 226,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -6780,8 +6779,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 227,
+    }, {
+        "id": 227,
         "ParentActivity": "20-000-023. Тест чек-листы_АС",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -6810,8 +6809,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 228,
+    }, {
+        "id": 228,
         "ParentActivity": "20-000-026. Работа 15203",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6840,8 +6839,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 229,
+    }, {
+        "id": 229,
         "ParentActivity": "20-000-026. Работа 15203",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -6870,8 +6869,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 230,
+    }, {
+        "id": 230,
         "ParentActivity": "20-000-026. Работа 15203",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -6900,8 +6899,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 231,
+    }, {
+        "id": 231,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6930,8 +6929,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 232,
+    }, {
+        "id": 232,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6960,8 +6959,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 233,
+    }, {
+        "id": 233,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -6990,8 +6989,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 234,
+    }, {
+        "id": 234,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7020,8 +7019,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 235,
+    }, {
+        "id": 235,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7050,8 +7049,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 236,
+    }, {
+        "id": 236,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7080,8 +7079,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 237,
+    }, {
+        "id": 237,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7110,8 +7109,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 238,
+    }, {
+        "id": 238,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7140,8 +7139,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 239,
+    }, {
+        "id": 239,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7170,8 +7169,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 240,
+    }, {
+        "id": 240,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7200,8 +7199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 241,
+    }, {
+        "id": 241,
         "ParentActivity": "20-000-027. Контрольные точки смотрим",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -7230,8 +7229,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 242,
+    }, {
+        "id": 242,
         "ParentActivity": "20-000-029. Проект-источник 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7260,8 +7259,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 243,
+    }, {
+        "id": 243,
         "ParentActivity": "20-000-029. Проект-источник 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7290,8 +7289,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 244,
+    }, {
+        "id": 244,
         "ParentActivity": "20-000-030. Проект - источник 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7320,8 +7319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 245,
+    }, {
+        "id": 245,
         "ParentActivity": "20-000-030. Проект - источник 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7350,8 +7349,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 246,
+    }, {
+        "id": 246,
         "ParentActivity": "20-000-030. Проект - источник 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7380,8 +7379,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 247,
+    }, {
+        "id": 247,
         "ParentActivity": "20-000-031. Проект - назначение 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7410,8 +7409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 248,
+    }, {
+        "id": 248,
         "ParentActivity": "20-000-032. Тест Трудозатраты план-факт2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7440,8 +7439,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 249,
+    }, {
+        "id": 249,
         "ParentActivity": "20-000-032. Тест Трудозатраты план-факт2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7470,8 +7469,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 250,
+    }, {
+        "id": 250,
         "ParentActivity": "20-000-032. Тест Трудозатраты план-факт2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7500,8 +7499,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 251,
+    }, {
+        "id": 251,
         "ParentActivity": "20-000-032. Тест Трудозатраты план-факт2",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -7530,8 +7529,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 252,
+    }, {
+        "id": 252,
         "ParentActivity": "20-000-032. Тест Трудозатраты план-факт2",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -7560,8 +7559,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 253,
+    }, {
+        "id": 253,
         "ParentActivity": "20-000-032. Тест Трудозатраты план-факт2",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -7590,8 +7589,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 254,
+    }, {
+        "id": 254,
         "ParentActivity": "20-000-032. Тест Трудозатраты план-факт2",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -7620,8 +7619,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 255,
+    }, {
+        "id": 255,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7650,8 +7649,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 256,
+    }, {
+        "id": 256,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7680,8 +7679,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 257,
+    }, {
+        "id": 257,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7710,8 +7709,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 258,
+    }, {
+        "id": 258,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7740,8 +7739,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 259,
+    }, {
+        "id": 259,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7770,8 +7769,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 260,
+    }, {
+        "id": 260,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7800,8 +7799,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 261,
+    }, {
+        "id": 261,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7830,8 +7829,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 262,
+    }, {
+        "id": 262,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7860,8 +7859,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 263,
+    }, {
+        "id": 263,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7890,8 +7889,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 264,
+    }, {
+        "id": 264,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -7920,8 +7919,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 265,
+    }, {
+        "id": 265,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7950,8 +7949,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 266,
+    }, {
+        "id": 266,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -7980,8 +7979,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 267,
+    }, {
+        "id": 267,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8010,8 +8009,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 268,
+    }, {
+        "id": 268,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8040,8 +8039,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 269,
+    }, {
+        "id": 269,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8070,8 +8069,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 270,
+    }, {
+        "id": 270,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8100,8 +8099,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 271,
+    }, {
+        "id": 271,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -8130,8 +8129,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 272,
+    }, {
+        "id": 272,
         "ParentActivity": "20-000-033. 25.10. Проект для демонстрации",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -8160,8 +8159,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 273,
+    }, {
+        "id": 273,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8190,8 +8189,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 274,
+    }, {
+        "id": 274,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8220,8 +8219,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 275,
+    }, {
+        "id": 275,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8250,8 +8249,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 276,
+    }, {
+        "id": 276,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8280,8 +8279,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 277,
+    }, {
+        "id": 277,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8310,8 +8309,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 278,
+    }, {
+        "id": 278,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8340,8 +8339,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 279,
+    }, {
+        "id": 279,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8370,8 +8369,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 280,
+    }, {
+        "id": 280,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8400,8 +8399,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 281,
+    }, {
+        "id": 281,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8430,8 +8429,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 282,
+    }, {
+        "id": 282,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8460,8 +8459,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 283,
+    }, {
+        "id": 283,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8490,8 +8489,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 284,
+    }, {
+        "id": 284,
         "ParentActivity": "20-000-036. Передача назначений ресурсов 2",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8520,8 +8519,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 285,
+    }, {
+        "id": 285,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8550,8 +8549,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 286,
+    }, {
+        "id": 286,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8580,8 +8579,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 287,
+    }, {
+        "id": 287,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8610,8 +8609,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 288,
+    }, {
+        "id": 288,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8640,8 +8639,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 289,
+    }, {
+        "id": 289,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8670,8 +8669,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 290,
+    }, {
+        "id": 290,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8700,8 +8699,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 291,
+    }, {
+        "id": 291,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8730,8 +8729,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 292,
+    }, {
+        "id": 292,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -8760,8 +8759,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 293,
+    }, {
+        "id": 293,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -8790,8 +8789,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 294,
+    }, {
+        "id": 294,
         "ParentActivity": "20-000-037. Расчет КПЭ Смирнов",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -8820,8 +8819,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 295,
+    }, {
+        "id": 295,
         "ParentActivity": "20-000-039. Передача трудозатрат 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -8850,8 +8849,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 296,
+    }, {
+        "id": 296,
         "ParentActivity": "20-000-040. Название 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8880,8 +8879,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 297,
+    }, {
+        "id": 297,
         "ParentActivity": "20-000-041. тест смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8910,8 +8909,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 298,
+    }, {
+        "id": 298,
         "ParentActivity": "20-000-041. тест смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8940,8 +8939,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 299,
+    }, {
+        "id": 299,
         "ParentActivity": "20-000-041. тест смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -8970,8 +8969,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 300,
+    }, {
+        "id": 300,
         "ParentActivity": "20-000-041. тест смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9000,8 +8999,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 301,
+    }, {
+        "id": 301,
         "ParentActivity": "20-000-041. тест смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9030,8 +9029,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 302,
+    }, {
+        "id": 302,
         "ParentActivity": "20-000-041. тест смирнов",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -9060,8 +9059,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 303,
+    }, {
+        "id": 303,
         "ParentActivity": "20-000-043. Внедрение системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9090,8 +9089,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 304,
+    }, {
+        "id": 304,
         "ParentActivity": "20-000-043. Внедрение системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -9120,8 +9119,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 305,
+    }, {
+        "id": 305,
         "ParentActivity": "20-000-043. Внедрение системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -9150,8 +9149,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 306,
+    }, {
+        "id": 306,
         "ParentActivity": "20-000-043. Внедрение системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -9180,8 +9179,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 307,
+    }, {
+        "id": 307,
         "ParentActivity": "20-000-044. Мероприятие 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9210,8 +9209,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 308,
+    }, {
+        "id": 308,
         "ParentActivity": "20-000-044. Мероприятие 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9240,8 +9239,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Информируемые_Старые"
-}, {
-    "id": 309,
+    }, {
+        "id": 309,
         "ParentActivity": "20-000-046. Согласование проектной документации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9270,8 +9269,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 310,
+    }, {
+        "id": 310,
         "ParentActivity": "20-000-046. Согласование проектной документации",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9300,8 +9299,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 311,
+    }, {
+        "id": 311,
         "ParentActivity": "20-000-046. Согласование проектной документации",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -9330,8 +9329,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 312,
+    }, {
+        "id": 312,
         "ParentActivity": "20-000-054. New Project test",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9360,8 +9359,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 313,
+    }, {
+        "id": 313,
         "ParentActivity": "20-000-067. Тест",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9390,8 +9389,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 314,
+    }, {
+        "id": 314,
         "ParentActivity": "20-000-067. Тест",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9420,8 +9419,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 315,
+    }, {
+        "id": 315,
         "ParentActivity": "20-000-068. \"Тест 2\" test",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9450,8 +9449,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 316,
+    }, {
+        "id": 316,
         "ParentActivity": "20-000-068. \"Тест 2\" test",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9480,8 +9479,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 317,
+    }, {
+        "id": 317,
         "ParentActivity": "20-000-068. \"Тест 2\" test",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9510,8 +9509,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 318,
+    }, {
+        "id": 318,
         "ParentActivity": "20-000-068. \"Тест 2\" test",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9540,8 +9539,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 319,
+    }, {
+        "id": 319,
         "ParentActivity": "20-000-068. \"Тест 2\" test",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9570,8 +9569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 320,
+    }, {
+        "id": 320,
         "ParentActivity": "20-000-068. \"Тест 2\" test",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9600,8 +9599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 321,
+    }, {
+        "id": 321,
         "ParentActivity": "20-000-069. Проект тест_",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -9630,8 +9629,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 322,
+    }, {
+        "id": 322,
         "ParentActivity": "20-000-070. Мероприятие тест_",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9660,8 +9659,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 323,
+    }, {
+        "id": 323,
         "ParentActivity": "20-000-072. ИТ проект 14",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9690,8 +9689,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 324,
+    }, {
+        "id": 324,
         "ParentActivity": "20-000-073. Проект создания СП 14",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9720,8 +9719,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 325,
+    }, {
+        "id": 325,
         "ParentActivity": "20-000-073. Проект создания СП 14",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -9750,8 +9749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 326,
+    }, {
+        "id": 326,
         "ParentActivity": "20-000-075. Мероприятие тест_2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9780,8 +9779,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 327,
+    }, {
+        "id": 327,
         "ParentActivity": "20-000-076. ИТ проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9810,8 +9809,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 328,
+    }, {
+        "id": 328,
         "ParentActivity": "20-000-076. ИТ проект",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -9840,8 +9839,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 329,
+    }, {
+        "id": 329,
         "ParentActivity": "20-000-077. СП проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9870,8 +9869,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 330,
+    }, {
+        "id": 330,
         "ParentActivity": "20-000-077. СП проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9900,8 +9899,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 331,
+    }, {
+        "id": 331,
         "ParentActivity": "20-000-078. Проект 1748_1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9930,8 +9929,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 332,
+    }, {
+        "id": 332,
         "ParentActivity": "20-000-078. Проект 1748_1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9960,8 +9959,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 333,
+    }, {
+        "id": 333,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -9990,8 +9989,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 334,
+    }, {
+        "id": 334,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10020,8 +10019,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 335,
+    }, {
+        "id": 335,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10050,8 +10049,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 336,
+    }, {
+        "id": 336,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10080,8 +10079,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 337,
+    }, {
+        "id": 337,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10110,8 +10109,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 338,
+    }, {
+        "id": 338,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10140,8 +10139,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 339,
+    }, {
+        "id": 339,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10170,8 +10169,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 340,
+    }, {
+        "id": 340,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10200,8 +10199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 341,
+    }, {
+        "id": 341,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10230,8 +10229,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 342,
+    }, {
+        "id": 342,
         "ParentActivity": "20-000-079. фывафыва1234",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10260,8 +10259,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 343,
+    }, {
+        "id": 343,
         "ParentActivity": "20-000-080. Модернизация ЛК666",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10290,8 +10289,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 344,
+    }, {
+        "id": 344,
         "ParentActivity": "20-000-080. Модернизация ЛК666",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10320,8 +10319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 345,
+    }, {
+        "id": 345,
         "ParentActivity": "20-000-081. Модернизация ЛК КИ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10350,8 +10349,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 346,
+    }, {
+        "id": 346,
         "ParentActivity": "20-000-086. Расчет коэффициентов Смирнов ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10380,8 +10379,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 347,
+    }, {
+        "id": 347,
         "ParentActivity": "20-000-086. Расчет коэффициентов Смирнов ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10410,8 +10409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 348,
+    }, {
+        "id": 348,
         "ParentActivity": "20-000-086. Расчет коэффициентов Смирнов ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10440,8 +10439,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 349,
+    }, {
+        "id": 349,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10470,8 +10469,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 350,
+    }, {
+        "id": 350,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10500,8 +10499,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 351,
+    }, {
+        "id": 351,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10530,8 +10529,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 352,
+    }, {
+        "id": 352,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10560,8 +10559,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 353,
+    }, {
+        "id": 353,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10590,8 +10589,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 354,
+    }, {
+        "id": 354,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10620,8 +10619,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 355,
+    }, {
+        "id": 355,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10650,8 +10649,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 356,
+    }, {
+        "id": 356,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10680,8 +10679,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 357,
+    }, {
+        "id": 357,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10710,8 +10709,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 358,
+    }, {
+        "id": 358,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10740,8 +10739,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 359,
+    }, {
+        "id": 359,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10770,8 +10769,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 360,
+    }, {
+        "id": 360,
         "ParentActivity": "20-000-087. Новый проект_расчет коэф",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10800,8 +10799,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 361,
+    }, {
+        "id": 361,
         "ParentActivity": "20-000-088. Мероприятие",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -10830,8 +10829,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 362,
+    }, {
+        "id": 362,
         "ParentActivity": "20-000-088. Мероприятие",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -10860,8 +10859,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 363,
+    }, {
+        "id": 363,
         "ParentActivity": "20-000-089. Проект Ресурсный плвн",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10890,8 +10889,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 364,
+    }, {
+        "id": 364,
         "ParentActivity": "20-000-089. Проект Ресурсный плвн",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10920,8 +10919,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 365,
+    }, {
+        "id": 365,
         "ParentActivity": "20-000-089. Проект Ресурсный плвн",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10950,8 +10949,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 366,
+    }, {
+        "id": 366,
         "ParentActivity": "20-000-094. Проект 20161219-03",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -10980,8 +10979,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 367,
+    }, {
+        "id": 367,
         "ParentActivity": "20-000-094. Проект 20161219-03",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11010,8 +11009,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 368,
+    }, {
+        "id": 368,
         "ParentActivity": "20-000-096. 2ыва",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11040,8 +11039,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 369,
+    }, {
+        "id": 369,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11070,8 +11069,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 370,
+    }, {
+        "id": 370,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11100,8 +11099,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 371,
+    }, {
+        "id": 371,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11130,8 +11129,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 372,
+    }, {
+        "id": 372,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11160,8 +11159,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 373,
+    }, {
+        "id": 373,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11190,8 +11189,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 374,
+    }, {
+        "id": 374,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11220,8 +11219,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 375,
+    }, {
+        "id": 375,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11250,8 +11249,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 376,
+    }, {
+        "id": 376,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11280,8 +11279,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 377,
+    }, {
+        "id": 377,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11310,8 +11309,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 378,
+    }, {
+        "id": 378,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11340,8 +11339,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 379,
+    }, {
+        "id": 379,
         "ParentActivity": "20-000-097. Самый новый тест проект",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -11370,8 +11369,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 380,
+    }, {
+        "id": 380,
         "ParentActivity": "20-000-098. test СДР",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11400,8 +11399,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 381,
+    }, {
+        "id": 381,
         "ParentActivity": "20-000-098. test СДР",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11430,8 +11429,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 382,
+    }, {
+        "id": 382,
         "ParentActivity": "20-000-099. test сроки проекта",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -11460,8 +11459,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 383,
+    }, {
+        "id": 383,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11490,8 +11489,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 384,
+    }, {
+        "id": 384,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11520,8 +11519,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 385,
+    }, {
+        "id": 385,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11550,8 +11549,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 386,
+    }, {
+        "id": 386,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11580,8 +11579,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 387,
+    }, {
+        "id": 387,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11610,8 +11609,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 388,
+    }, {
+        "id": 388,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11640,8 +11639,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 389,
+    }, {
+        "id": 389,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11670,8 +11669,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 390,
+    }, {
+        "id": 390,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11700,8 +11699,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 391,
+    }, {
+        "id": 391,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -11730,8 +11729,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 392,
+    }, {
+        "id": 392,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -11760,8 +11759,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 393,
+    }, {
+        "id": 393,
         "ParentActivity": "20-000-100. Проверка расчета КПЭ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -11790,8 +11789,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 394,
+    }, {
+        "id": 394,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11820,8 +11819,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 395,
+    }, {
+        "id": 395,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11850,8 +11849,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 396,
+    }, {
+        "id": 396,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11880,8 +11879,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 397,
+    }, {
+        "id": 397,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -11910,8 +11909,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 398,
+    }, {
+        "id": 398,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -11940,8 +11939,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 399,
+    }, {
+        "id": 399,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -11970,8 +11969,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 400,
+    }, {
+        "id": 400,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12000,8 +11999,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 401,
+    }, {
+        "id": 401,
         "ParentActivity": "20-000-101. Наименование внутреннего Проекта 1",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12030,8 +12029,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 402,
+    }, {
+        "id": 402,
         "ParentActivity": "20-000-103. Наименование внутреннего Проекта 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12060,8 +12059,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 403,
+    }, {
+        "id": 403,
         "ParentActivity": "20-000-103. Наименование внутреннего Проекта 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12090,8 +12089,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 404,
+    }, {
+        "id": 404,
         "ParentActivity": "20-000-105. проект 20161223",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12120,8 +12119,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 405,
+    }, {
+        "id": 405,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12150,8 +12149,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 406,
+    }, {
+        "id": 406,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12180,8 +12179,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 407,
+    }, {
+        "id": 407,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12210,8 +12209,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 408,
+    }, {
+        "id": 408,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12240,8 +12239,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 409,
+    }, {
+        "id": 409,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12270,8 +12269,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 410,
+    }, {
+        "id": 410,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12300,8 +12299,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 411,
+    }, {
+        "id": 411,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12330,8 +12329,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 412,
+    }, {
+        "id": 412,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12360,8 +12359,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 413,
+    }, {
+        "id": 413,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12390,8 +12389,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 414,
+    }, {
+        "id": 414,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12420,8 +12419,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 415,
+    }, {
+        "id": 415,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12450,8 +12449,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 416,
+    }, {
+        "id": 416,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -12480,8 +12479,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 417,
+    }, {
+        "id": 417,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -12510,8 +12509,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 418,
+    }, {
+        "id": 418,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -12540,8 +12539,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 419,
+    }, {
+        "id": 419,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -12570,8 +12569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 420,
+    }, {
+        "id": 420,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -12600,8 +12599,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 421,
+    }, {
+        "id": 421,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -12630,8 +12629,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 422,
+    }, {
+        "id": 422,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12660,8 +12659,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 423,
+    }, {
+        "id": 423,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12690,8 +12689,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 424,
+    }, {
+        "id": 424,
         "ParentActivity": "20-000-106. Тестовый проект расчет КПЭ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12720,8 +12719,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 425,
+    }, {
+        "id": 425,
         "ParentActivity": "20-000-109. Проект 12",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12750,8 +12749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 426,
+    }, {
+        "id": 426,
         "ParentActivity": "20-000-109. Проект 12",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12780,8 +12779,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 427,
+    }, {
+        "id": 427,
         "ParentActivity": "20-000-109. Проект 12",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12810,8 +12809,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 428,
+    }, {
+        "id": 428,
         "ParentActivity": "20-000-109. Проект 12",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12840,8 +12839,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 429,
+    }, {
+        "id": 429,
         "ParentActivity": "20-000-114. Coded UI Project 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12870,8 +12869,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 430,
+    }, {
+        "id": 430,
         "ParentActivity": "20-000-115. Coded UI Project 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12900,8 +12899,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 431,
+    }, {
+        "id": 431,
         "ParentActivity": "20-000-116. Coded UI Project 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -12930,8 +12929,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 432,
+    }, {
+        "id": 432,
         "ParentActivity": "20-000-118. Coded UI Project 2",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -12960,8 +12959,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 433,
+    }, {
+        "id": 433,
         "ParentActivity": "20-000-130. Тест С.О.",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -12990,8 +12989,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 434,
+    }, {
+        "id": 434,
         "ParentActivity": "20-000-130. Тест С.О.",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -13020,8 +13019,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 435,
+    }, {
+        "id": 435,
         "ParentActivity": "20-000-130. Тест С.О.",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -13050,8 +13049,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 436,
+    }, {
+        "id": 436,
         "ParentActivity": "20-000-132. Тестовый проект СмирновИ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13080,8 +13079,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 437,
+    }, {
+        "id": 437,
         "ParentActivity": "20-000-133. Тестирование КПЭ 240117",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13110,8 +13109,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 438,
+    }, {
+        "id": 438,
         "ParentActivity": "20-000-133. Тестирование КПЭ 240117",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13140,8 +13139,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 439,
+    }, {
+        "id": 439,
         "ParentActivity": "20-000-133. Тестирование КПЭ 240117",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13170,8 +13169,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 440,
+    }, {
+        "id": 440,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13200,8 +13199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 441,
+    }, {
+        "id": 441,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13230,8 +13229,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 442,
+    }, {
+        "id": 442,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13260,8 +13259,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 443,
+    }, {
+        "id": 443,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13290,8 +13289,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 444,
+    }, {
+        "id": 444,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13320,8 +13319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 445,
+    }, {
+        "id": 445,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13350,8 +13349,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 446,
+    }, {
+        "id": 446,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13380,8 +13379,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 447,
+    }, {
+        "id": 447,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 10,
         "IndicatorColor": "#718396",
@@ -13410,8 +13409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 448,
+    }, {
+        "id": 448,
         "ParentActivity": "20-000-138. Проект для включения в ЦПК",
         "IndicatorOrder": 11,
         "IndicatorColor": "#718396",
@@ -13440,8 +13439,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 449,
+    }, {
+        "id": 449,
         "ParentActivity": "20-000-139. Проект для включения в ЦПК 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13470,8 +13469,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 450,
+    }, {
+        "id": 450,
         "ParentActivity": "20-000-139. Проект для включения в ЦПК 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13500,8 +13499,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 451,
+    }, {
+        "id": 451,
         "ParentActivity": "20-000-140. Проект для включения в ЦПК 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13530,8 +13529,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 452,
+    }, {
+        "id": 452,
         "ParentActivity": "20-000-140. Проект для включения в ЦПК 3",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13560,8 +13559,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 453,
+    }, {
+        "id": 453,
         "ParentActivity": "20-000-140. Проект для включения в ЦПК 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13590,8 +13589,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 454,
+    }, {
+        "id": 454,
         "ParentActivity": "20-000-140. Проект для включения в ЦПК 3",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13620,8 +13619,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 455,
+    }, {
+        "id": 455,
         "ParentActivity": "20-000-141. Проект для включения в ЦПК 5",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13650,8 +13649,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 456,
+    }, {
+        "id": 456,
         "ParentActivity": "20-000-141. Проект для включения в ЦПК 5",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13680,8 +13679,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 457,
+    }, {
+        "id": 457,
         "ParentActivity": "20-000-141. Проект для включения в ЦПК 5",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13710,8 +13709,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 458,
+    }, {
+        "id": 458,
         "ParentActivity": "20-000-141. Проект для включения в ЦПК 5",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13740,8 +13739,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 459,
+    }, {
+        "id": 459,
         "ParentActivity": "20-000-141. Проект для включения в ЦПК 5",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13770,8 +13769,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 460,
+    }, {
+        "id": 460,
         "ParentActivity": "20-000-141. Проект для включения в ЦПК 5",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13800,8 +13799,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 461,
+    }, {
+        "id": 461,
         "ParentActivity": "20-000-141. Проект для включения в ЦПК 5",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -13830,8 +13829,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 462,
+    }, {
+        "id": 462,
         "ParentActivity": "20-000-142. Проект для включения в ЦПК 6",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13860,8 +13859,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 463,
+    }, {
+        "id": 463,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13890,8 +13889,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 464,
+    }, {
+        "id": 464,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13920,8 +13919,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 465,
+    }, {
+        "id": 465,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13950,8 +13949,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 466,
+    }, {
+        "id": 466,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -13980,8 +13979,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 467,
+    }, {
+        "id": 467,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14010,8 +14009,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 468,
+    }, {
+        "id": 468,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14040,8 +14039,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 469,
+    }, {
+        "id": 469,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14070,8 +14069,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 470,
+    }, {
+        "id": 470,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14100,8 +14099,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 471,
+    }, {
+        "id": 471,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14130,8 +14129,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 472,
+    }, {
+        "id": 472,
         "ParentActivity": "20-000-144. ВОСТСИБСТРОЙ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14160,8 +14159,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 473,
+    }, {
+        "id": 473,
         "ParentActivity": "20-000-145. ВОСТСИБСТРОЙ ПОКАЗ СИСТЕМЫ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14190,8 +14189,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 474,
+    }, {
+        "id": 474,
         "ParentActivity": "20-000-145. ВОСТСИБСТРОЙ ПОКАЗ СИСТЕМЫ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14220,8 +14219,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 475,
+    }, {
+        "id": 475,
         "ParentActivity": "20-000-145. ВОСТСИБСТРОЙ ПОКАЗ СИСТЕМЫ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14250,8 +14249,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 476,
+    }, {
+        "id": 476,
         "ParentActivity": "20-000-146. МостСтройСнаб",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14280,8 +14279,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 477,
+    }, {
+        "id": 477,
         "ParentActivity": "20-000-146. МостСтройСнаб",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14310,8 +14309,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 478,
+    }, {
+        "id": 478,
         "ParentActivity": "20-000-146. МостСтройСнаб",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14340,8 +14339,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 479,
+    }, {
+        "id": 479,
         "ParentActivity": "20-000-146. МостСтройСнаб",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14370,8 +14369,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 480,
+    }, {
+        "id": 480,
         "ParentActivity": "20-000-146. МостСтройСнаб",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14400,8 +14399,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 481,
+    }, {
+        "id": 481,
         "ParentActivity": "20-000-146. МостСтройСнаб",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14430,8 +14429,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 482,
+    }, {
+        "id": 482,
         "ParentActivity": "20-000-147. Проект проверка КТ Гант",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14460,8 +14459,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 483,
+    }, {
+        "id": 483,
         "ParentActivity": "20-000-151. Тестирование прав доступа",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14490,8 +14489,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 484,
+    }, {
+        "id": 484,
         "ParentActivity": "20-000-151. Тестирование прав доступа",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -14520,8 +14519,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 485,
+    }, {
+        "id": 485,
         "ParentActivity": "20-000-151. Тестирование прав доступа",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -14550,8 +14549,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 486,
+    }, {
+        "id": 486,
         "ParentActivity": "20-000-158. Данные из Адванты",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -14580,8 +14579,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 487,
+    }, {
+        "id": 487,
         "ParentActivity": "20-000-172. Тест МД",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -14610,8 +14609,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 488,
+    }, {
+        "id": 488,
         "ParentActivity": "20-000-173. Тест обязательных КТ Ключевой/премируемый ИТ-проект",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -14640,8 +14639,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 489,
+    }, {
+        "id": 489,
         "ParentActivity": "20-000-189. Ключевой/премируемый проект",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -14670,8 +14669,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 490,
+    }, {
+        "id": 490,
         "ParentActivity": "20-000-189. Ключевой/премируемый проект",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -14700,8 +14699,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 491,
+    }, {
+        "id": 491,
         "ParentActivity": "20-000-189. Ключевой/премируемый проект",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -14730,8 +14729,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 492,
+    }, {
+        "id": 492,
         "ParentActivity": "20-000-189. Ключевой/премируемый проект",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -14760,8 +14759,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 493,
+    }, {
+        "id": 493,
         "ParentActivity": "20-000-195. Ключевой ИТ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14790,8 +14789,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 494,
+    }, {
+        "id": 494,
         "ParentActivity": "20-000-196. Локальный проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14820,8 +14819,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 495,
+    }, {
+        "id": 495,
         "ParentActivity": "20-000-208. Проверка иерархических связей",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14850,8 +14849,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 496,
+    }, {
+        "id": 496,
         "ParentActivity": "20-000-208. Проверка иерархических связей",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14880,8 +14879,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 497,
+    }, {
+        "id": 497,
         "ParentActivity": "20-000-208. Проверка иерархических связей",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14910,8 +14909,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 498,
+    }, {
+        "id": 498,
         "ParentActivity": "20-000-211. Ведение бюджета проекта 100516",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14940,8 +14939,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 499,
+    }, {
+        "id": 499,
         "ParentActivity": "20-000-212. Тестирование библиотеки проектных документов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -14970,8 +14969,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 500,
+    }, {
+        "id": 500,
         "ParentActivity": "20-000-212. Тестирование библиотеки проектных документов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15000,8 +14999,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 501,
+    }, {
+        "id": 501,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15030,8 +15029,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 502,
+    }, {
+        "id": 502,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15060,8 +15059,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 503,
+    }, {
+        "id": 503,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15090,8 +15089,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 504,
+    }, {
+        "id": 504,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15120,8 +15119,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 505,
+    }, {
+        "id": 505,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15150,8 +15149,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 506,
+    }, {
+        "id": 506,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15180,8 +15179,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 507,
+    }, {
+        "id": 507,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15210,8 +15209,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 508,
+    }, {
+        "id": 508,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15240,8 +15239,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 509,
+    }, {
+        "id": 509,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15270,8 +15269,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 510,
+    }, {
+        "id": 510,
         "ParentActivity": "20-000-213. Проект 18052017",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -15300,8 +15299,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 511,
+    }, {
+        "id": 511,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15330,8 +15329,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 512,
+    }, {
+        "id": 512,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15360,8 +15359,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 513,
+    }, {
+        "id": 513,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15390,8 +15389,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 514,
+    }, {
+        "id": 514,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15420,8 +15419,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 515,
+    }, {
+        "id": 515,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15450,8 +15449,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 516,
+    }, {
+        "id": 516,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15480,8 +15479,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 517,
+    }, {
+        "id": 517,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15510,8 +15509,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 518,
+    }, {
+        "id": 518,
         "ParentActivity": "20-000-220. Проверка редактируемых реестров",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15540,8 +15539,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 519,
+    }, {
+        "id": 519,
         "ParentActivity": "20-000-222. Тестирование бюджета",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15570,8 +15569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 520,
+    }, {
+        "id": 520,
         "ParentActivity": "20-000-231. Проект 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15600,8 +15599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 521,
+    }, {
+        "id": 521,
         "ParentActivity": "20-000-233. Создание информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15630,8 +15629,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 522,
+    }, {
+        "id": 522,
         "ParentActivity": "20-000-237. Расчет КПЭ Смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15660,8 +15659,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 523,
+    }, {
+        "id": 523,
         "ParentActivity": "20-000-237. Расчет КПЭ Смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15690,8 +15689,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 524,
+    }, {
+        "id": 524,
         "ParentActivity": "20-000-237. Расчет КПЭ Смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15720,8 +15719,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 525,
+    }, {
+        "id": 525,
         "ParentActivity": "20-000-237. Расчет КПЭ Смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15750,8 +15749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 526,
+    }, {
+        "id": 526,
         "ParentActivity": "20-000-237. Расчет КПЭ Смирнов",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15780,8 +15779,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 527,
+    }, {
+        "id": 527,
         "ParentActivity": "20-000-238. Тестирование бюджета",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15810,8 +15809,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 528,
+    }, {
+        "id": 528,
         "ParentActivity": "20-000-247. Тестирование бюджета",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15840,8 +15839,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 529,
+    }, {
+        "id": 529,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15870,8 +15869,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 530,
+    }, {
+        "id": 530,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15900,8 +15899,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 531,
+    }, {
+        "id": 531,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15930,8 +15929,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 532,
+    }, {
+        "id": 532,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15960,8 +15959,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 533,
+    }, {
+        "id": 533,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -15990,8 +15989,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 534,
+    }, {
+        "id": 534,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16020,8 +16019,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 535,
+    }, {
+        "id": 535,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16050,8 +16049,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 536,
+    }, {
+        "id": 536,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16080,8 +16079,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 537,
+    }, {
+        "id": 537,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16110,8 +16109,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 538,
+    }, {
+        "id": 538,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16140,8 +16139,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 539,
+    }, {
+        "id": 539,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16170,8 +16169,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 540,
+    }, {
+        "id": 540,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16200,8 +16199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 541,
+    }, {
+        "id": 541,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16230,8 +16229,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 542,
+    }, {
+        "id": 542,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16260,8 +16259,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 543,
+    }, {
+        "id": 543,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16290,8 +16289,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 544,
+    }, {
+        "id": 544,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16320,8 +16319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 545,
+    }, {
+        "id": 545,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16350,8 +16349,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 546,
+    }, {
+        "id": 546,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16380,8 +16379,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 547,
+    }, {
+        "id": 547,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16410,8 +16409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 548,
+    }, {
+        "id": 548,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16440,8 +16439,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 549,
+    }, {
+        "id": 549,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16470,8 +16469,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 550,
+    }, {
+        "id": 550,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16500,8 +16499,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 551,
+    }, {
+        "id": 551,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16530,8 +16529,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 552,
+    }, {
+        "id": 552,
         "ParentActivity": "20-000-253. Модернизация информационной системы",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16560,8 +16559,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 553,
+    }, {
+        "id": 553,
         "ParentActivity": "20-000-254. Тестирование бюджета",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16590,8 +16589,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 554,
+    }, {
+        "id": 554,
         "ParentActivity": "20-000-257. Тестирование логирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16620,8 +16619,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 555,
+    }, {
+        "id": 555,
         "ParentActivity": "20-000-257. Тестирование логирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16650,8 +16649,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 556,
+    }, {
+        "id": 556,
         "ParentActivity": "20-000-257. Тестирование логирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16680,8 +16679,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 557,
+    }, {
+        "id": 557,
         "ParentActivity": "20-000-257. Тестирование логирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16710,8 +16709,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 558,
+    }, {
+        "id": 558,
         "ParentActivity": "20-000-257. Тестирование логирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -16740,8 +16739,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 559,
+    }, {
+        "id": 559,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16770,8 +16769,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 560,
+    }, {
+        "id": 560,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16800,8 +16799,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 561,
+    }, {
+        "id": 561,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16830,8 +16829,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 562,
+    }, {
+        "id": 562,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -16860,8 +16859,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 563,
+    }, {
+        "id": 563,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16890,8 +16889,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 564,
+    }, {
+        "id": 564,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16920,8 +16919,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 565,
+    }, {
+        "id": 565,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16950,8 +16949,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 566,
+    }, {
+        "id": 566,
         "ParentActivity": "20-000-258. ! проект внут  1   НЕ редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -16980,8 +16979,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 567,
+    }, {
+        "id": 567,
         "ParentActivity": "20-000-260. ! проект внеш 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17010,8 +17009,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 568,
+    }, {
+        "id": 568,
         "ParentActivity": "20-000-260. ! проект внеш 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17040,8 +17039,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 569,
+    }, {
+        "id": 569,
         "ParentActivity": "20-000-260. ! проект внеш 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17070,8 +17069,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 570,
+    }, {
+        "id": 570,
         "ParentActivity": "20-000-260. ! проект внеш 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17100,8 +17099,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 571,
+    }, {
+        "id": 571,
         "ParentActivity": "20-000-260. ! проект внеш 1 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17130,8 +17129,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 572,
+    }, {
+        "id": 572,
         "ParentActivity": "20-000-260. ! проект внеш 1 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17160,8 +17159,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 573,
+    }, {
+        "id": 573,
         "ParentActivity": "20-000-260. ! проект внеш 1 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17190,8 +17189,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 574,
+    }, {
+        "id": 574,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17220,8 +17219,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 575,
+    }, {
+        "id": 575,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17250,8 +17249,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 576,
+    }, {
+        "id": 576,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17280,8 +17279,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 577,
+    }, {
+        "id": 577,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17310,8 +17309,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 578,
+    }, {
+        "id": 578,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17340,8 +17339,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 579,
+    }, {
+        "id": 579,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17370,8 +17369,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 580,
+    }, {
+        "id": 580,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17400,8 +17399,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 581,
+    }, {
+        "id": 581,
         "ParentActivity": "20-000-261. ! проект внут 2 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17430,8 +17429,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 582,
+    }, {
+        "id": 582,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -17460,8 +17459,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 583,
+    }, {
+        "id": 583,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17490,8 +17489,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 584,
+    }, {
+        "id": 584,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17520,8 +17519,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 585,
+    }, {
+        "id": 585,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17550,8 +17549,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 586,
+    }, {
+        "id": 586,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17580,8 +17579,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 587,
+    }, {
+        "id": 587,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17610,8 +17609,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 588,
+    }, {
+        "id": 588,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17640,8 +17639,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 589,
+    }, {
+        "id": 589,
         "ParentActivity": "20-000-262. ! проект внут 3 НЕ редактировать !",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17670,8 +17669,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 590,
+    }, {
+        "id": 590,
         "ParentActivity": "20-000-263. ! план-график 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17700,8 +17699,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 591,
+    }, {
+        "id": 591,
         "ParentActivity": "20-000-263. ! план-график 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17730,8 +17729,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 592,
+    }, {
+        "id": 592,
         "ParentActivity": "20-000-263. ! план-график 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17760,8 +17759,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 593,
+    }, {
+        "id": 593,
         "ParentActivity": "20-000-263. ! план-график 1 Не редактировать!",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17790,8 +17789,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 594,
+    }, {
+        "id": 594,
         "ParentActivity": "20-000-263. ! план-график 1 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17820,8 +17819,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 595,
+    }, {
+        "id": 595,
         "ParentActivity": "20-000-263. ! план-график 1 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17850,8 +17849,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 596,
+    }, {
+        "id": 596,
         "ParentActivity": "20-000-263. ! план-график 1 Не редактировать!",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -17880,8 +17879,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 597,
+    }, {
+        "id": 597,
         "ParentActivity": "20-000-264. ! план-график 2 НЕ редактировать !",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17910,8 +17909,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 598,
+    }, {
+        "id": 598,
         "ParentActivity": "20-000-264. ! план-график 2 НЕ редактировать !",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17940,8 +17939,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 599,
+    }, {
+        "id": 599,
         "ParentActivity": "20-000-264. ! план-график 2 НЕ редактировать !",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -17970,8 +17969,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 600,
+    }, {
+        "id": 600,
         "ParentActivity": "20-000-264. ! план-график 2 НЕ редактировать !",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -18000,8 +17999,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 601,
+    }, {
+        "id": 601,
         "ParentActivity": "20-000-264. ! план-график 2 НЕ редактировать !",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -18030,8 +18029,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 602,
+    }, {
+        "id": 602,
         "ParentActivity": "20-000-264. ! план-график 2 НЕ редактировать !",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -18060,8 +18059,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 603,
+    }, {
+        "id": 603,
         "ParentActivity": "20-000-264. ! план-график 2 НЕ редактировать !",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -18090,8 +18089,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 604,
+    }, {
+        "id": 604,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18120,8 +18119,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 605,
+    }, {
+        "id": 605,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18150,8 +18149,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 606,
+    }, {
+        "id": 606,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18180,8 +18179,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 607,
+    }, {
+        "id": 607,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18210,8 +18209,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 608,
+    }, {
+        "id": 608,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18240,8 +18239,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 609,
+    }, {
+        "id": 609,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18270,8 +18269,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 610,
+    }, {
+        "id": 610,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18300,8 +18299,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 611,
+    }, {
+        "id": 611,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18330,8 +18329,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 612,
+    }, {
+        "id": 612,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18360,8 +18359,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 613,
+    }, {
+        "id": 613,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18390,8 +18389,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 614,
+    }, {
+        "id": 614,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18420,8 +18419,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 615,
+    }, {
+        "id": 615,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18450,8 +18449,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 616,
+    }, {
+        "id": 616,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18480,8 +18479,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 617,
+    }, {
+        "id": 617,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18510,8 +18509,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 618,
+    }, {
+        "id": 618,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18540,8 +18539,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 619,
+    }, {
+        "id": 619,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18570,8 +18569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 620,
+    }, {
+        "id": 620,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18600,8 +18599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 621,
+    }, {
+        "id": 621,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18630,8 +18629,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 622,
+    }, {
+        "id": 622,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18660,8 +18659,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 623,
+    }, {
+        "id": 623,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18690,8 +18689,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 624,
+    }, {
+        "id": 624,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18720,8 +18719,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 625,
+    }, {
+        "id": 625,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18750,8 +18749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 626,
+    }, {
+        "id": 626,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18780,8 +18779,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 627,
+    }, {
+        "id": 627,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18810,8 +18809,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 628,
+    }, {
+        "id": 628,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18840,8 +18839,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 629,
+    }, {
+        "id": 629,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18870,8 +18869,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 630,
+    }, {
+        "id": 630,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18900,8 +18899,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 631,
+    }, {
+        "id": 631,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18930,8 +18929,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 632,
+    }, {
+        "id": 632,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18960,8 +18959,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 633,
+    }, {
+        "id": 633,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -18990,8 +18989,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 634,
+    }, {
+        "id": 634,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19020,8 +19019,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 635,
+    }, {
+        "id": 635,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19050,8 +19049,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 636,
+    }, {
+        "id": 636,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19080,8 +19079,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 637,
+    }, {
+        "id": 637,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19110,8 +19109,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 638,
+    }, {
+        "id": 638,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19140,8 +19139,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 639,
+    }, {
+        "id": 639,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19170,8 +19169,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 640,
+    }, {
+        "id": 640,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19200,8 +19199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 641,
+    }, {
+        "id": 641,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19230,8 +19229,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 642,
+    }, {
+        "id": 642,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19260,8 +19259,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 643,
+    }, {
+        "id": 643,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19290,8 +19289,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 644,
+    }, {
+        "id": 644,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19320,8 +19319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 645,
+    }, {
+        "id": 645,
         "ParentActivity": "20-000-265. Тест финансы",
         "IndicatorOrder": 11,
         "IndicatorColor": "#718396",
@@ -19350,8 +19349,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 646,
+    }, {
+        "id": 646,
         "ParentActivity": "20-000-279. ИТ проект 14",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19380,8 +19379,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 647,
+    }, {
+        "id": 647,
         "ParentActivity": "20-000-281. ИТ проект 14",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19410,8 +19409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 648,
+    }, {
+        "id": 648,
         "ParentActivity": "20-000-284. ИТ проект 14",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19440,8 +19439,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 649,
+    }, {
+        "id": 649,
         "ParentActivity": "20-000-288. ИТ проект 14",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19470,8 +19469,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 650,
+    }, {
+        "id": 650,
         "ParentActivity": "20-000-289. Новый проект_расчет коэф",
         "IndicatorOrder": 10,
         "IndicatorColor": "#718396",
@@ -19500,8 +19499,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 651,
+    }, {
+        "id": 651,
         "ParentActivity": "20-000-290. ИТ проект",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19530,8 +19529,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 652,
+    }, {
+        "id": 652,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19560,8 +19559,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 653,
+    }, {
+        "id": 653,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19590,8 +19589,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 654,
+    }, {
+        "id": 654,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19620,8 +19619,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 655,
+    }, {
+        "id": 655,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19650,8 +19649,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 656,
+    }, {
+        "id": 656,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19680,8 +19679,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 657,
+    }, {
+        "id": 657,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19710,8 +19709,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 658,
+    }, {
+        "id": 658,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -19740,8 +19739,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 659,
+    }, {
+        "id": 659,
         "ParentActivity": "20-000-297. Тестировать_11",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -19770,8 +19769,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 660,
+    }, {
+        "id": 660,
         "ParentActivity": "20-000-298. ИТ проект 14",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19800,8 +19799,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 661,
+    }, {
+        "id": 661,
         "ParentActivity": "20-000-308. Интеграция с ИС - Копия_",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19830,8 +19829,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 662,
+    }, {
+        "id": 662,
         "ParentActivity": "20-000-318. Проект для включения в ЦПК 5 - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19860,8 +19859,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 663,
+    }, {
+        "id": 663,
         "ParentActivity": "20-000-321. тест смирнов - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19890,8 +19889,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 664,
+    }, {
+        "id": 664,
         "ParentActivity": "20-000-321. тест смирнов - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19920,8 +19919,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 665,
+    }, {
+        "id": 665,
         "ParentActivity": "20-000-321. тест смирнов - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19950,8 +19949,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 666,
+    }, {
+        "id": 666,
         "ParentActivity": "20-000-321. тест смирнов - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -19980,8 +19979,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 667,
+    }, {
+        "id": 667,
         "ParentActivity": "20-000-321. тест смирнов - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20010,8 +20009,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 668,
+    }, {
+        "id": 668,
         "ParentActivity": "20-000-321. тест смирнов - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20040,8 +20039,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 669,
+    }, {
+        "id": 669,
         "ParentActivity": "20-000-321. тест смирнов - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20070,8 +20069,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 670,
+    }, {
+        "id": 670,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20100,8 +20099,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 671,
+    }, {
+        "id": 671,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20130,8 +20129,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 672,
+    }, {
+        "id": 672,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20160,8 +20159,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 673,
+    }, {
+        "id": 673,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20190,8 +20189,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 674,
+    }, {
+        "id": 674,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20220,8 +20219,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 675,
+    }, {
+        "id": 675,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20250,8 +20249,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 676,
+    }, {
+        "id": 676,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -20280,8 +20279,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 677,
+    }, {
+        "id": 677,
         "ParentActivity": "20-000-322. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 11,
         "IndicatorColor": "#718396",
@@ -20310,8 +20309,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 678,
+    }, {
+        "id": 678,
         "ParentActivity": "20-000-326. Проект для кейса с Project",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20340,8 +20339,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 679,
+    }, {
+        "id": 679,
         "ParentActivity": "20-000-326. Проект для кейса с Project",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20370,8 +20369,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 680,
+    }, {
+        "id": 680,
         "ParentActivity": "20-000-326. Проект для кейса с Project",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20400,8 +20399,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 681,
+    }, {
+        "id": 681,
         "ParentActivity": "20-000-326. Проект для кейса с Project",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20430,8 +20429,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 682,
+    }, {
+        "id": 682,
         "ParentActivity": "20-000-326. Проект для кейса с Project",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20460,8 +20459,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 683,
+    }, {
+        "id": 683,
         "ParentActivity": "20-000-327. Проверка заполнения и выгрузки статус-отчетов",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -20490,8 +20489,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 684,
+    }, {
+        "id": 684,
         "ParentActivity": "20-000-327. Проверка заполнения и выгрузки статус-отчетов",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -20520,8 +20519,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 685,
+    }, {
+        "id": 685,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20550,8 +20549,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 686,
+    }, {
+        "id": 686,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20580,8 +20579,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 687,
+    }, {
+        "id": 687,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20610,8 +20609,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 688,
+    }, {
+        "id": 688,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20640,8 +20639,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 689,
+    }, {
+        "id": 689,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20670,8 +20669,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 690,
+    }, {
+        "id": 690,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20700,8 +20699,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 691,
+    }, {
+        "id": 691,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20730,8 +20729,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 692,
+    }, {
+        "id": 692,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20760,8 +20759,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 693,
+    }, {
+        "id": 693,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20790,8 +20789,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 694,
+    }, {
+        "id": 694,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20820,8 +20819,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 695,
+    }, {
+        "id": 695,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20850,8 +20849,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 696,
+    }, {
+        "id": 696,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20880,8 +20879,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 697,
+    }, {
+        "id": 697,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20910,8 +20909,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 698,
+    }, {
+        "id": 698,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20940,8 +20939,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 699,
+    }, {
+        "id": 699,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -20970,8 +20969,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 700,
+    }, {
+        "id": 700,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21000,8 +20999,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 701,
+    }, {
+        "id": 701,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21030,8 +21029,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 702,
+    }, {
+        "id": 702,
         "ParentActivity": "20-000-328. 25.10. Проект для демонстрации - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21060,8 +21059,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 703,
+    }, {
+        "id": 703,
         "ParentActivity": "20-000-329. Тест создание КТ - Копия",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -21090,8 +21089,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 704,
+    }, {
+        "id": 704,
         "ParentActivity": "20-000-330. Тест_1122 - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21120,8 +21119,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 705,
+    }, {
+        "id": 705,
         "ParentActivity": "20-000-330. Тест_1122 - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21150,8 +21149,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 706,
+    }, {
+        "id": 706,
         "ParentActivity": "20-000-330. Тест_1122 - Копия",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -21180,8 +21179,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 707,
+    }, {
+        "id": 707,
         "ParentActivity": "20-000-330. Тест_1122 - Копия",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -21210,8 +21209,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 708,
+    }, {
+        "id": 708,
         "ParentActivity": "20-000-330. Тест_1122 - Копия",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -21240,8 +21239,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 709,
+    }, {
+        "id": 709,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21270,8 +21269,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 710,
+    }, {
+        "id": 710,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21300,8 +21299,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 711,
+    }, {
+        "id": 711,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21330,8 +21329,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 712,
+    }, {
+        "id": 712,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -21360,8 +21359,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 713,
+    }, {
+        "id": 713,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -21390,8 +21389,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 714,
+    }, {
+        "id": 714,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -21420,8 +21419,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 715,
+    }, {
+        "id": 715,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -21450,8 +21449,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 716,
+    }, {
+        "id": 716,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -21480,8 +21479,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 717,
+    }, {
+        "id": 717,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -21510,8 +21509,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 718,
+    }, {
+        "id": 718,
         "ParentActivity": "20-000-331. Тест САМ",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -21540,8 +21539,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 719,
+    }, {
+        "id": 719,
         "ParentActivity": "20-000-333. Проект-источник 1 - Копия для проверки журнала",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21570,8 +21569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 720,
+    }, {
+        "id": 720,
         "ParentActivity": "20-000-333. Проект-источник 1 - Копия для проверки журнала",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21600,8 +21599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 721,
+    }, {
+        "id": 721,
         "ParentActivity": "20-000-333. Проект-источник 1 - Копия для проверки журнала",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21630,8 +21629,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 722,
+    }, {
+        "id": 722,
         "ParentActivity": "20-000-333. Проект-источник 1 - Копия для проверки журнала",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21660,8 +21659,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 723,
+    }, {
+        "id": 723,
         "ParentActivity": "20-000-333. Проект-источник 1 - Копия для проверки журнала",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21690,8 +21689,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 724,
+    }, {
+        "id": 724,
         "ParentActivity": "20-000-333. Проект-источник 1 - Копия для проверки журнала",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21720,8 +21719,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 725,
+    }, {
+        "id": 725,
         "ParentActivity": "20-000-335. Тестирование ЖРД проекта 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21750,8 +21749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 726,
+    }, {
+        "id": 726,
         "ParentActivity": "20-000-335. Тестирование ЖРД проекта 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21780,8 +21779,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 727,
+    }, {
+        "id": 727,
         "ParentActivity": "20-000-335. Тестирование ЖРД проекта 2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21810,8 +21809,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 728,
+    }, {
+        "id": 728,
         "ParentActivity": "20-000-336. Корректность включения в карту КП",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21840,8 +21839,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 729,
+    }, {
+        "id": 729,
         "ParentActivity": "20-000-336. Корректность включения в карту КП",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21870,8 +21869,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 730,
+    }, {
+        "id": 730,
         "ParentActivity": "20-000-336. Корректность включения в карту КП",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21900,8 +21899,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 731,
+    }, {
+        "id": 731,
         "ParentActivity": "20-000-336. Корректность включения в карту КП",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21930,8 +21929,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 732,
+    }, {
+        "id": 732,
         "ParentActivity": "20-000-336. Корректность включения в карту КП",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21960,8 +21959,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 733,
+    }, {
+        "id": 733,
         "ParentActivity": "20-000-336. Корректность включения в карту КП",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -21990,8 +21989,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 734,
+    }, {
+        "id": 734,
         "ParentActivity": "20-000-336. Корректность включения в карту КП",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22020,8 +22019,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 735,
+    }, {
+        "id": 735,
         "ParentActivity": "20-000-341. Проверка создания типовых КТ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22050,8 +22049,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 736,
+    }, {
+        "id": 736,
         "ParentActivity": "20-000-343. тест23112017",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22080,8 +22079,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 737,
+    }, {
+        "id": 737,
         "ParentActivity": "20-000-343. тест23112017",
         "IndicatorOrder": 10,
         "IndicatorColor": "#718396",
@@ -22110,8 +22109,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 738,
+    }, {
+        "id": 738,
         "ParentActivity": "20-000-345. Тест проект уведомлений",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -22140,8 +22139,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 739,
+    }, {
+        "id": 739,
         "ParentActivity": "20-000-345. Тест проект уведомлений",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -22170,8 +22169,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 740,
+    }, {
+        "id": 740,
         "ParentActivity": "20-000-346. тест1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22200,8 +22199,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 741,
+    }, {
+        "id": 741,
         "ParentActivity": "20-000-346. тест1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22230,8 +22229,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 742,
+    }, {
+        "id": 742,
         "ParentActivity": "20-000-346. тест1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22260,8 +22259,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 743,
+    }, {
+        "id": 743,
         "ParentActivity": "20-000-346. тест1",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -22290,8 +22289,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 744,
+    }, {
+        "id": 744,
         "ParentActivity": "20-000-346. тест1",
         "IndicatorOrder": 11,
         "IndicatorColor": "#718396",
@@ -22320,8 +22319,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 745,
+    }, {
+        "id": 745,
         "ParentActivity": "20-000-350. Pink проект для копирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22350,8 +22349,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 746,
+    }, {
+        "id": 746,
         "ParentActivity": "20-000-350. Pink проект для копирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22380,8 +22379,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 747,
+    }, {
+        "id": 747,
         "ParentActivity": "20-000-350. Pink проект для копирования",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22410,8 +22409,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 748,
+    }, {
+        "id": 748,
         "ParentActivity": "20-000-354. Новый проект_расчет коэф - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22440,8 +22439,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 749,
+    }, {
+        "id": 749,
         "ParentActivity": "20-000-354. Новый проект_расчет коэф - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22470,8 +22469,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 750,
+    }, {
+        "id": 750,
         "ParentActivity": "20-000-354. Новый проект_расчет коэф - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22500,8 +22499,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 751,
+    }, {
+        "id": 751,
         "ParentActivity": "20-000-354. Новый проект_расчет коэф - Копия",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22530,8 +22529,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 752,
+    }, {
+        "id": 752,
         "ParentActivity": "20-000-354. Новый проект_расчет коэф - Копия",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -22560,8 +22559,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 753,
+    }, {
+        "id": 753,
         "ParentActivity": "20-000-357. Проверка сохранения",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22590,8 +22589,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 754,
+    }, {
+        "id": 754,
         "ParentActivity": "20-000-357. Проверка сохранения",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22620,8 +22619,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 755,
+    }, {
+        "id": 755,
         "ParentActivity": "20-000-357. Проверка сохранения",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22650,8 +22649,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 756,
+    }, {
+        "id": 756,
         "ParentActivity": "20-000-357. Проверка сохранения",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22680,8 +22679,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 757,
+    }, {
+        "id": 757,
         "ParentActivity": "20-000-357. Проверка сохранения",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22710,8 +22709,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 758,
+    }, {
+        "id": 758,
         "ParentActivity": "20-000-359. cfgdfg",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22740,8 +22739,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 759,
+    }, {
+        "id": 759,
         "ParentActivity": "20-000-360. Нормальное название",
         "IndicatorOrder": 11,
         "IndicatorColor": "#718396",
@@ -22770,8 +22769,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 760,
+    }, {
+        "id": 760,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22800,8 +22799,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 761,
+    }, {
+        "id": 761,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22830,8 +22829,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 762,
+    }, {
+        "id": 762,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22860,8 +22859,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 763,
+    }, {
+        "id": 763,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22890,8 +22889,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 764,
+    }, {
+        "id": 764,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22920,8 +22919,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 765,
+    }, {
+        "id": 765,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22950,8 +22949,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 766,
+    }, {
+        "id": 766,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -22980,8 +22979,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 767,
+    }, {
+        "id": 767,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23010,8 +23009,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 768,
+    }, {
+        "id": 768,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23040,8 +23039,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 769,
+    }, {
+        "id": 769,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23070,8 +23069,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 770,
+    }, {
+        "id": 770,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23100,8 +23099,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 771,
+    }, {
+        "id": 771,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23130,8 +23129,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 772,
+    }, {
+        "id": 772,
         "ParentActivity": "20-000-363. Тестирование PBS ИС ",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23160,8 +23159,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 773,
+    }, {
+        "id": 773,
         "ParentActivity": "20-000-364. test21217",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23190,8 +23189,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 774,
+    }, {
+        "id": 774,
         "ParentActivity": "20-000-364. test21217",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -23220,8 +23219,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Приемщик"
-}, {
-    "id": 775,
+    }, {
+        "id": 775,
         "ParentActivity": "20-000-364. test21217",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -23250,8 +23249,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 776,
+    }, {
+        "id": 776,
         "ParentActivity": "20-000-364. test21217",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -23280,8 +23279,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 777,
+    }, {
+        "id": 777,
         "ParentActivity": "20-000-365. Тест наследования прав",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23310,8 +23309,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 778,
+    }, {
+        "id": 778,
         "ParentActivity": "20-000-366. Проверка ПБС2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23340,8 +23339,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 779,
+    }, {
+        "id": 779,
         "ParentActivity": "20-000-366. Проверка ПБС2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23370,8 +23369,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 780,
+    }, {
+        "id": 780,
         "ParentActivity": "20-000-366. Проверка ПБС2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23400,8 +23399,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 781,
+    }, {
+        "id": 781,
         "ParentActivity": "20-000-366. Проверка ПБС2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23430,8 +23429,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 782,
+    }, {
+        "id": 782,
         "ParentActivity": "20-000-366. Проверка ПБС2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23460,8 +23459,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 783,
+    }, {
+        "id": 783,
         "ParentActivity": "20-000-382. Проверка PBS",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23490,8 +23489,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 784,
+    }, {
+        "id": 784,
         "ParentActivity": "20-000-382. Проверка PBS",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23520,8 +23519,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 785,
+    }, {
+        "id": 785,
         "ParentActivity": "20-000-382. Проверка PBS",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23550,8 +23549,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 786,
+    }, {
+        "id": 786,
         "ParentActivity": "20-000-382. Проверка PBS",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23580,8 +23579,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 787,
+    }, {
+        "id": 787,
         "ParentActivity": "20-000-383. qqqqqqqqqqqqqqqqqqqqqqqqqqqq",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23610,8 +23609,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 788,
+    }, {
+        "id": 788,
         "ParentActivity": "20-000-383. qqqqqqqqqqqqqqqqqqqqqqqqqqqq",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23640,8 +23639,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 789,
+    }, {
+        "id": 789,
         "ParentActivity": "20-000-383. qqqqqqqqqqqqqqqqqqqqqqqqqqqq",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23670,8 +23669,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 790,
+    }, {
+        "id": 790,
         "ParentActivity": "20-000-383. qqqqqqqqqqqqqqqqqqqqqqqqqqqq",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23700,8 +23699,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 791,
+    }, {
+        "id": 791,
         "ParentActivity": "20-000-384. Проект_(test_24.05.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23730,8 +23729,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 792,
+    }, {
+        "id": 792,
         "ParentActivity": "20-000-384. Проект_(test_24.05.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23760,8 +23759,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 793,
+    }, {
+        "id": 793,
         "ParentActivity": "20-000-384. Проект_(test_24.05.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23790,8 +23789,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 794,
+    }, {
+        "id": 794,
         "ParentActivity": "20-000-384. Проект_(test_24.05.2018)",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -23820,8 +23819,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 795,
+    }, {
+        "id": 795,
         "ParentActivity": "20-000-384. Проект_(test_24.05.2018)",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -23850,8 +23849,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 796,
+    }, {
+        "id": 796,
         "ParentActivity": "20-000-384. Проект_(test_24.05.2018)",
         "IndicatorOrder": 11,
         "IndicatorColor": "#718396",
@@ -23880,8 +23879,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 797,
+    }, {
+        "id": 797,
         "ParentActivity": "20-000-385. проверка ЖЦ АС",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -23910,8 +23909,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 798,
+    }, {
+        "id": 798,
         "ParentActivity": "20-000-389. Проект_(test_29.05.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23940,8 +23939,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 799,
+    }, {
+        "id": 799,
         "ParentActivity": "20-000-389. Проект_(test_29.05.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -23970,8 +23969,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 800,
+    }, {
+        "id": 800,
         "ParentActivity": "20-000-389. Проект_(test_29.05.2018)",
         "IndicatorOrder": 10,
         "IndicatorColor": "#718396",
@@ -24000,8 +23999,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Информируемые"
-}, {
-    "id": 801,
+    }, {
+        "id": 801,
         "ParentActivity": "20-000-399. Тест0606",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24030,8 +24029,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": "",
         "MyRole": "Сотрудник курирующего ЦУП"
-}, {
-    "id": 802,
+    }, {
+        "id": 802,
         "ParentActivity": "20-000-399. Тест0606",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24060,8 +24059,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 803,
+    }, {
+        "id": 803,
         "ParentActivity": "20-000-399. Тест0606",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24090,8 +24089,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 804,
+    }, {
+        "id": 804,
         "ParentActivity": "20-000-399. Тест0606",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24120,8 +24119,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 805,
+    }, {
+        "id": 805,
         "ParentActivity": "20-000-399. Тест0606",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24150,8 +24149,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 806,
+    }, {
+        "id": 806,
         "ParentActivity": "20-000-399. Тест0606",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24180,8 +24179,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 807,
+    }, {
+        "id": 807,
         "ParentActivity": "20-000-422. Проект_3_(test_20.06.2018)",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -24210,8 +24209,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 808,
+    }, {
+        "id": 808,
         "ParentActivity": "20-000-422. Проект_3_(test_20.06.2018)",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24240,8 +24239,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 809,
+    }, {
+        "id": 809,
         "ParentActivity": "20-000-422. Проект_3_(test_20.06.2018)",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24270,8 +24269,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 810,
+    }, {
+        "id": 810,
         "ParentActivity": "20-000-425. Тестовый проект 20-06-2018",
         "IndicatorOrder": 10,
         "IndicatorColor": "#718396",
@@ -24300,8 +24299,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 811,
+    }, {
+        "id": 811,
         "ParentActivity": "20-000-426. Проект_1_(test_22.06.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24330,8 +24329,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 812,
+    }, {
+        "id": 812,
         "ParentActivity": "20-000-426. Проект_1_(test_22.06.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24360,8 +24359,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 813,
+    }, {
+        "id": 813,
         "ParentActivity": "20-000-428. Проект_4_(test_25.06.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24390,8 +24389,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 814,
+    }, {
+        "id": 814,
         "ParentActivity": "20-000-428. Проект_4_(test_25.06.2018)",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24420,8 +24419,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 815,
+    }, {
+        "id": 815,
         "ParentActivity": "20-000-428. Проект_4_(test_25.06.2018)",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24450,8 +24449,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Исполнитель"
-}, {
-    "id": 816,
+    }, {
+        "id": 816,
         "ParentActivity": "20-000-431. Проект тест PWA 120718",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24480,8 +24479,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 817,
+    }, {
+        "id": 817,
         "ParentActivity": "20-000-435. Проект тест PWA 160718-2",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24510,8 +24509,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 818,
+    }, {
+        "id": 818,
         "ParentActivity": "70-000-004. Новое мероприятие 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24540,8 +24539,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 819,
+    }, {
+        "id": 819,
         "ParentActivity": "70-000-004. Новое мероприятие 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24570,8 +24569,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 820,
+    }, {
+        "id": 820,
         "ParentActivity": "70-000-006. Подготовка ежеквартального отчета для ЦПК в 2016 г.",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -24600,8 +24599,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 821,
+    }, {
+        "id": 821,
         "ParentActivity": "70-000-014. Мероприятие 12",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24630,8 +24629,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 822,
+    }, {
+        "id": 822,
         "ParentActivity": "70-000-017. Проект для включения в ЦПК 4",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24660,8 +24659,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 823,
+    }, {
+        "id": 823,
         "ParentActivity": "70-000-018. Новое мероприятие",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24690,8 +24689,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 824,
+    }, {
+        "id": 824,
         "ParentActivity": "70-000-018. Новое мероприятие",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24720,8 +24719,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Ответственный"
-}, {
-    "id": 825,
+    }, {
+        "id": 825,
         "ParentActivity": "70-000-024. Ключевое мероприятие 5",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24750,8 +24749,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 826,
+    }, {
+        "id": 826,
         "ParentActivity": "70-000-024. Ключевое мероприятие 5",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24780,8 +24779,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 827,
+    }, {
+        "id": 827,
         "ParentActivity": "70-000-024. Ключевое мероприятие 5",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24810,8 +24809,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 828,
+    }, {
+        "id": 828,
         "ParentActivity": "70-000-047. Мероприятие для проверки рассылки",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24840,8 +24839,8 @@ export default [
         "LevelPointPMC": "",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 829,
+    }, {
+        "id": 829,
         "ParentActivity": "70-000-050. Мероприятие.КП.План-график.кейс7 (5% за невыполненую вовремя КТ)",
         "IndicatorOrder": 6,
         "IndicatorColor": "#ff6666 ",
@@ -24870,8 +24869,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 830,
+    }, {
+        "id": 830,
         "ParentActivity": "70-000-050. Мероприятие.КП.План-график.кейс7 (5% за невыполненую вовремя КТ)",
         "IndicatorOrder": 8,
         "IndicatorColor": "#3cd79a",
@@ -24900,8 +24899,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 831,
+    }, {
+        "id": 831,
         "ParentActivity": "90-000-002. Ключевой портфель 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24930,8 +24929,8 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}, {
-    "id": 832,
+    }, {
+        "id": 832,
         "ParentActivity": "90-000-002. Ключевой портфель 1",
         "IndicatorOrder": 1,
         "IndicatorColor": "#ff6666",
@@ -24960,4 +24959,13 @@ export default [
         "LevelPointPMC": "0,1",
         "isOwnerOrLeader": true,
         "MyRole": "Контактное лицо"
-}];
+    }];
+/*
+let i = 0;
+while(i < 5){
+    data = data.concat(data);
+    i++;
+}
+*/
+
+export default data

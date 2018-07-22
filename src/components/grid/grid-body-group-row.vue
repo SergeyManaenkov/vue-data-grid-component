@@ -16,6 +16,7 @@
             <grid-body-group-row
                     v-for="(rowObj) in row.childGroups"
                     :row="rowObj"
+                    v-show="isOpenChildGroups"
             ></grid-body-group-row>
         </template>
 
@@ -38,7 +39,6 @@
     import GridBodyGroupCell from './grid-body-group-cell.vue';
     import GridBodyChildRow from './grid-body-child-row.vue';
 
-
     export default {
         name: 'grid-body-group-row',/* т.к. данные компанент вызывается рекурсивно, нужно задать назвнаине компанента */
         props: ["row", 'index'],
@@ -55,6 +55,9 @@
             },
             isChilds() {
                 return this.row.childs && !!this.row.childs.length;
+            },
+            isOpenChildGroups(){
+                return this.row.isOpen;
             }
         }
     }

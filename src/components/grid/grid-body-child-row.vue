@@ -1,23 +1,23 @@
 <template>
-    <div class="row" :style="{marginLeft: indent}">
-            <grid-body-cell
+    <div class="row" :style="{marginLeft: indent}" v-show="isShow">
+            <grid-body-child-cell
                     v-for="(column, index) in columns"
 
                     :column="column"
                     :row="row"
-            ></grid-body-cell>
+            ></grid-body-child-cell>
     </div>
 </template>
 
 
 <script>
     import { mapState } from 'vuex';
-    import GridBodyCell from './grid-body-child-cell.vue';
+    import GridBodyChildCell from './grid-body-child-cell.vue';
 
     export default {
         props: ["row"],
         components: {
-            GridBodyCell/*: import ('./grid-cell')*/
+            GridBodyChildCell/*: import ('./grid-cell')*/
         },
         computed: {
             ...mapState( [
@@ -27,6 +27,9 @@
             ] ),
             indent() {
                 return ( this.groups.length * this.defaultIndent) + 'px';
+            },
+            isShow(){
+                return this.row.parent.isOpen;
             }
         }
     }

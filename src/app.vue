@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div>
         <grid-toolbar></grid-toolbar>
 
         <grid-header

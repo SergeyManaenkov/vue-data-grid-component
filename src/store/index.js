@@ -1,10 +1,10 @@
+require( "babel-polyfill" );
 import 'es6-promise/auto'; // т.к. для VUEX нужна поддержка promise, а в IE promise неподдерживается. Подключаем библиотеку-полефил
-require( 'es6-object-assign' ).polyfill();// IE 11 не поддерживает Object.assign
+//require( 'es6-object-assign' ).polyfill();// IE 11 не поддерживает Object.assign
 /*import 'es6-map';
-
 require( 'es6-set/implement' );*/
 
-import { createSorting } from "../utility"
+import { createSorting, dataView } from "../utility"
 
 import Vue from 'vue';
 import Vuex from 'vuex';
@@ -77,27 +77,11 @@ class dataItem {
     }
 }
 
-/* Создает экземпляр строки данных для группирующего элемента */
-function dataItemGroup( options ) {
-    let o = options;
-    let defaults = {
-        title: '',
-        childGroups: null,
-        groupSettings: null,
-        parent: null,
-        childs: [],
-        level: 0,
-        isOpen: true,
-        isGroup: true
-    };
-    Object.assign( defaults, o );
-    return defaults;
-}
-
 export const store = new Vuex.Store( {
     strict: process.env.NODE_ENV !== 'production',
     state: {
-        data: demoData,
+        initData: demoData, /* [] */
+        initDataView: {},
         groups: [
             new group( { field: 'LevelPointName' } ),
             new group( { field: 'IndicatorTitle', isOpen: false } ),
@@ -131,6 +115,9 @@ export const store = new Vuex.Store( {
         }
     },
     mutations: {
+        setInitDataView( state, DataView ) {
+            state.initDataView = DataView;
+        },
         setOpenGroup( state, rowGroup ) {
             rowGroup.isOpen = !rowGroup.isOpen;
         },
@@ -147,6 +134,27 @@ export const store = new Vuex.Store( {
     actions: {
         setOpenGroup( { commit }, rowGroup ) {
             commit( 'setOpenGroup', rowGroup )
+        },
+        onSearch( { commit, state, actions }, e ) {
+            let textSearch = e.target.value;
+            const regSearch = new RegExp( textSearch, 'i' );
+            let rowsBodySearchResult = Object.assign( state.rowsBody );
+            for ( let key in rowsBodySearchResult ) {
+                let row = rowsBodySearchResult[key];
+                if ( row.childs.length ) {
+                    for ( let i = row.childs.length - 1; i > 0; i-- ) {
+                        let child = row.childs[i];
+                        for ( const column of columns ) {
+                            if ( regSearch.test( child[column.field] ) ) {
+                                break;
+                            } else {
+                                row.childs.splice( i, 1 );
+                            }
+                        }
+                    }
+                }
+            }
+            commit( 'dataRowsBody', rowsBodySearchResult );
         },
         onSearch( { commit, state, actions }, e ) {
             let textSearch = e.target.value;
@@ -194,10 +202,12 @@ export const store = new Vuex.Store( {
         getRowsBody( { commit, state, getters } ) {
 
             setTimeout( () => {
-                // Сортируем данные
-                const sortDataRowsBody = state.data.slice( 0 ).sort( getters.sort );
-
                 let { groups } = state;
+
+                /*// Сортируем данные
+                const sortDataRowsBody = state.initData.slice( 0 ).sort( getters.sort );
+
+
 
                 const rootGroups = {};
                 if ( groups.length ) {
@@ -237,8 +247,15 @@ export const store = new Vuex.Store( {
                     rootGroups[0] = {
                         childs: sortDataRowsBody
                     };
-                }
+                }*/
 
+                const options = {
+                    data: state.initData,
+                    sort: getters.sort,
+                    groups
+                };
+                const rootGroups = dataView(options);
+                commit( 'setInitDataView', rootGroups );
                 commit( 'dataRowsBody', rootGroups );
             }, 0 );
 

@@ -48,7 +48,7 @@ const sortingBy = (function () {
     return tb;
 })();
 
-const createSorting = function ( sortings = [] ) {
+export const createSorting = function ( sortings = [] ) {
     let sortFunc;
 
     for ( let i = 0; i < sortings.length; i++ ) {
@@ -62,5 +62,3 @@ const createSorting = function ( sortings = [] ) {
     }
     return sortFunc;
 };
-
-export { createSorting };

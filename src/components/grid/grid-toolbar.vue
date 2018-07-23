@@ -7,9 +7,7 @@
     export default {
         components: {
             gridToolbarSearch
-        },
-        name: '',
-
+        }
     }
 </script>
 

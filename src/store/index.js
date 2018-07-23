@@ -4,12 +4,13 @@ import 'es6-promise/auto'; // т.к. для VUEX нужна поддержка p
 /*import 'es6-map';
 require( 'es6-set/implement' );*/
 
-import { createSorting, dataView } from "../utility"
+import { createSorting, createDataView } from "../utility"
 
 import Vue from 'vue';
 import Vuex from 'vuex';
 
 import demoData from './demo-data';
+import { getValueCell } from '../utility';
 
 // Подключаем плагин
 Vue.use( Vuex );
@@ -135,46 +136,28 @@ export const store = new Vuex.Store( {
         setOpenGroup( { commit }, rowGroup ) {
             commit( 'setOpenGroup', rowGroup )
         },
-        onSearch( { commit, state, actions }, e ) {
+        onSearch( { commit, state, getters }, e ) {
             let textSearch = e.target.value;
             const regSearch = new RegExp( textSearch, 'i' );
-            let rowsBodySearchResult = Object.assign( state.rowsBody );
-            for ( let key in rowsBodySearchResult ) {
-                let row = rowsBodySearchResult[key];
-                if ( row.childs.length ) {
-                    for ( let i = row.childs.length - 1; i > 0; i-- ) {
-                        let child = row.childs[i];
-                        for ( const column of columns ) {
-                            if ( regSearch.test( child[column.field] ) ) {
-                                break;
-                            } else {
-                                row.childs.splice( i, 1 );
-                            }
-                        }
+            const { initData, columns, groups } = state;
+            const data = initData.filter( function ( row ) {
+                for ( const column of columns ) {
+                    // Форматируем значение для ячейки
+                    let text = getValueCell( { column, row } );
+                    if ( regSearch.test( text ) ) {
+                        return true;
                     }
                 }
-            }
-            commit( 'dataRowsBody', rowsBodySearchResult );
-        },
-        onSearch( { commit, state, actions }, e ) {
-            let textSearch = e.target.value;
-            const regSearch = new RegExp( textSearch, 'i' );
-            let rowsBodySearchResult = Object.assign( state.rowsBody );
-            for ( let key in rowsBodySearchResult ) {
-                let row = rowsBodySearchResult[key];
-                if ( row.childs.length ) {
-                    for ( let i = row.childs.length - 1; i > 0; i-- ) {
-                        let child = row.childs[i];
-                        for ( const column of columns ) {
-                            if ( regSearch.test( child[column.field] ) ) {
-                                break;
-                            } else {
-                                row.childs.splice( i, 1 );
-                            }
-                        }
-                    }
-                }
-            }
+            } );
+
+            const options = {
+                data,
+                sort: getters.sort,
+                groups
+            };
+
+            let rowsBodySearchResult = createDataView( options );
+
             commit( 'dataRowsBody', rowsBodySearchResult );
         },
         getRowsHeader( { commit } ) {
@@ -254,7 +237,7 @@ export const store = new Vuex.Store( {
                     sort: getters.sort,
                     groups
                 };
-                const rootGroups = dataView(options);
+                const rootGroups = createDataView( options );
                 commit( 'setInitDataView', rootGroups );
                 commit( 'dataRowsBody', rootGroups );
             }, 0 );

@@ -1,5 +1,5 @@
 import { createSorting } from './sorting.js';
-import { numeral } from "./formatting";
+import { getValueCell } from "./formatting";
 
 /* Создает экземпляр строки данных для группирующего элемента */
 function dataItemGroup( options ) {
@@ -18,7 +18,7 @@ function dataItemGroup( options ) {
     return defaults;
 }
 
-function dataView( options ) {
+function createDataView( options ) {
     const o = options;
     // Сортируем данные
     const data = o.data.slice( 0 ).sort( o.sort );
@@ -67,4 +67,4 @@ function dataView( options ) {
 
     return rootGroups;
 }
-export { createSorting, numeral, dataView };
+export { createSorting, getValueCell, createDataView };

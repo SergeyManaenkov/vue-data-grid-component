@@ -9,7 +9,6 @@
     </div>
 </template>
 
-
 <script>
     import { mapState } from 'vuex';
     import GridBodyChildCell from './grid-body-child-cell.vue';

@@ -1,5 +1,7 @@
 <template>
     <div class="">
+        <grid-toolbar></grid-toolbar>
+
         <grid-header
                 :rows="rowsHeader"
         ></grid-header>
@@ -18,6 +20,7 @@
 <script>
     import { mapState, mapActions } from 'vuex';
 
+    import gridToolbar from './components/grid/grid-toolbar.vue';
     import gridHeader from './components/grid/grid-header.vue';
     import gridFooter from './components/grid/grid-footer.vue';
 
@@ -26,6 +29,7 @@
 
     export default {
         components: {
+            gridToolbar,
             gridHeader,
             gridFooter,
             GridBodyGroupRow

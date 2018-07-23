@@ -97,6 +97,7 @@ function dataItemGroup( options ) {
 export const store = new Vuex.Store( {
     strict: process.env.NODE_ENV !== 'production',
     state: {
+        data: demoData,
         groups: [
             new group( { field: 'LevelPointName' } ),
             new group( { field: 'IndicatorTitle', isOpen: false } ),
@@ -136,7 +137,7 @@ export const store = new Vuex.Store( {
         dataRowsHeader( state, dataRowsHeader = [] ) {
             state.rowsHeader = dataRowsHeader;
         },
-        dataRowsBody( state, dataRowsBody = [] ) {
+        dataRowsBody( state, dataRowsBody = {} ) {
             state.rowsBody = dataRowsBody;
         },
         dataRowsFooter( state, dataRowsFooter = [] ) {
@@ -146,6 +147,27 @@ export const store = new Vuex.Store( {
     actions: {
         setOpenGroup( { commit }, rowGroup ) {
             commit( 'setOpenGroup', rowGroup )
+        },
+        onSearch( { commit, state, actions }, e ) {
+            let textSearch = e.target.value;
+            const regSearch = new RegExp( textSearch, 'i' );
+            let rowsBodySearchResult = Object.assign( state.rowsBody );
+            for ( let key in rowsBodySearchResult ) {
+                let row = rowsBodySearchResult[key];
+                if ( row.childs.length ) {
+                    for ( let i = row.childs.length - 1; i > 0; i-- ) {
+                        let child = row.childs[i];
+                        for ( const column of columns ) {
+                            if ( regSearch.test( child[column.field] ) ) {
+                                break;
+                            } else {
+                                row.childs.splice( i, 1 );
+                            }
+                        }
+                    }
+                }
+            }
+            commit( 'dataRowsBody', rowsBodySearchResult );
         },
         getRowsHeader( { commit } ) {
             let dataRowsHeader = [
@@ -170,11 +192,10 @@ export const store = new Vuex.Store( {
 
         },
         getRowsBody( { commit, state, getters } ) {
-            let dataRowsBody = demoData;
 
             setTimeout( () => {
                 // Сортируем данные
-                const sortDataRowsBody = dataRowsBody.slice( 0 ).sort( getters.sort );
+                const sortDataRowsBody = state.data.slice( 0 ).sort( getters.sort );
 
                 let { groups } = state;
 

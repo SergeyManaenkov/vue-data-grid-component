@@ -133,9 +133,6 @@ export const store = new Vuex.Store( {
         }
     },
     actions: {
-        setOpenGroup( { commit }, rowGroup ) {
-            commit( 'setOpenGroup', rowGroup )
-        },
         onSearch( { commit, state, getters }, e ) {
             let textSearch = e.target.value;
             const regSearch = new RegExp( textSearch, 'i' );
@@ -182,7 +179,6 @@ export const store = new Vuex.Store( {
 
         },
         getRowsBody( { commit, state, getters } ) {
-
             setTimeout( () => {
                 let { groups } = state;
 

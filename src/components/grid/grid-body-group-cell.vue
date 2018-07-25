@@ -2,8 +2,8 @@
     <div class="col">
         <span
                 class="grid-cell"
-                @click="setOpenGroup(row)"
-        >[{{ isOpen ? '-' : '+' }}]</span>
+                @click="open(row)"
+        >[{{ row.isOpen ? '-' : '+' }}]</span>
         <span class="badge badge-secondary badge-pill">{{ count }}</span>
         {{ text }}
     </div>
@@ -11,7 +11,7 @@
 
 <script>
     import { numeral } from '../../utility';
-    import { mapActions } from 'vuex';
+    import { mapActions, mapMutations } from 'vuex';
 
     export default {
         props: ["row"],
@@ -25,14 +25,14 @@
                     return this.row.childs.length;
                 }
             },
-            isOpen() {
+            /*isOpen() {
                 return this.row.isOpen;
-            }
+            }*/
         },
         methods: {
-            ...mapActions( [
-                'setOpenGroup'
-            ] )
+            ...mapMutations( {
+                open: 'setOpenGroup'
+            } )
         }
     }
 </script>

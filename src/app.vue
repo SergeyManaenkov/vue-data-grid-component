@@ -31,8 +31,8 @@
         components: {
             gridToolbar,
             gridHeader,
-            gridFooter,
-            GridBody
+            GridBody,
+            gridFooter
         },
         computed: {
             ...mapState( [
@@ -54,7 +54,6 @@
                 'getRowsBody',
                 'getRowsFooter'
             ] );
-
             metods.getRowsHeader.apply( this );
             metods.getRowsBody.apply( this );
             metods.getRowsFooter.apply( this );

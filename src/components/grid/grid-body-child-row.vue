@@ -1,8 +1,7 @@
 <template>
-    <div class="row" :style="{paddingLeft: indent}" v-show="isShow">
+    <div class="row" :style="{paddingLeft: indent}" v-show="isOpen">
             <grid-body-child-cell
                     v-for="(column, index) in columns"
-
                     :column="column"
                     :row="row"
             ></grid-body-child-cell>
@@ -16,14 +15,7 @@
     export default {
         props: ["row"],
         components: {
-            GridBodyChildCell/*: import ('./grid-cell')*/
-        },
-        data(){
-            debugger;
-            return {
-                isShow: this.row.parent.isOpen
-            }
-
+            GridBodyChildCell
         },
         computed: {
             ...mapState( [
@@ -34,9 +26,9 @@
             indent() {
                 return ( this.defaultIndent) + 'px';
             },
-            /*isShow(){
+            isOpen(){
                 return this.row.parent.isOpen;
-            }*/
+            }
         }
     }
 </script>

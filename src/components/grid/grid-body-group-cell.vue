@@ -1,41 +1,47 @@
 <template>
-    <div class="col"
-         :colspan="colspan">
-        <span :style="{marginLeft: indent}">
-            <span
-                    class="grid-cell"
-                    @click="setOpenGroup(row)"
-            >[{{ isOpen ? '-' : '+' }}]</span>
-            {{ text }}
-        </span>
+    <div class="col">
+        <span
+                class="grid-cell"
+                @click="setOpenGroup(row)"
+        >[{{ isOpen ? '-' : '+' }}]</span>
+        <span class="badge badge-secondary badge-pill">{{ count }}</span>
+        {{ text }}
     </div>
 </template>
 
 <script>
     import { numeral } from '../../utility';
-    import { mapState, mapActions } from 'vuex';
+    import { mapActions } from 'vuex';
 
     export default {
-        props: ["row", "colspan"],
+        props: ["row"],
         computed: {
-            ...mapState( [
-                'defaultIndent'
-            ] ),
             text() {
                 let { row } = this;
                 return row.title;
             },
-            indent() {
-                return (this.row.level * this.defaultIndent) + 'px';
+            count() {
+                debugger;
+                if ( this.row.childs && this.row.childs.length ) {
+                    return this.row.childs.length;
+                } else if ( this.row.childGroups ) {
+                    let parentCount = 0;
+                    for ( const key in this.row.childGroups ) {
+                        let childGroup = this.row.childGroups[key];
+                        parentCount += childGroup.childs.length;
+                    }
+                    return parentCount;
+                }
             },
             isOpen() {
                 return this.row.isOpen;
             }
         },
         methods: {
-            ...mapActions([
-                'setOpenGroup'
-            ])
+            ...mapActions( [
+                'setOpenGroup',
+                'setCountGroup'
+            ] )
         }
     }
 </script>

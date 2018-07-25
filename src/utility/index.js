@@ -3,7 +3,6 @@ import { getValueCell } from "./formatting";
 
 /* Создает экземпляр строки данных для группирующего элемента */
 function dataItemGroup( options ) {
-    let o = options;
     let defaults = {
         title: '',
         childGroups: null,
@@ -14,21 +13,19 @@ function dataItemGroup( options ) {
         isOpen: true,
         isGroup: true
     };
-    Object.assign( defaults, o );
+    Object.assign( defaults, options );
     return defaults;
 }
 
 function createDataView( options ) {
-    const o = options;
+    let { groups, data, sort } = options;
     // Сортируем данные
-    const data = o.data.slice( 0 ).sort( o.sort );
-
-    let { groups } = o;
+    const _data = data.slice( 0 ).sort( sort );
 
     const rootGroups = {};
     if ( groups.length ) {
         let firstGroup = groups[0];
-        for ( const row of data ) {
+        for ( const row of _data ) {
             let groupTitle = row[firstGroup.field];
             let root = rootGroups[groupTitle];
             if ( !root ) {
@@ -61,7 +58,7 @@ function createDataView( options ) {
         }
     } else {
         rootGroups[0] = {
-            childs: data
+            childs: _data
         };
     }
 

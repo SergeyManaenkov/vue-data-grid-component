@@ -1,11 +1,10 @@
 <template>
 
-    <div class="container-group">
+    <div class="container-group" :style="{paddingLeft: indent}">
         <!-- Отрисовываем группировку -->
         <div class="row font-weight-bold bg-light" v-if="row.isGroup">
             <grid-body-group-cell
                     :row="row"
-                    :colspan="colspan"
             ></grid-body-group-cell>
         </div>
 
@@ -40,24 +39,28 @@
     import GridBodyChildRow from './grid-body-child-row.vue';
 
     export default {
-        name: 'grid-body-group-row',/* т.к. данные компанент вызывается рекурсивно, нужно задать назвнаине компанента */
-        props: ["row", 'index'],
+        name: 'grid-body-group-row', /* т.к. данные компанент вызывается рекурсивно, нужно задать назвнаине компанента */
+        props: ["row"],
         components: {
             GridBodyGroupCell,
             GridBodyChildRow
         },
         computed: {
             ...mapState( [
-                'columns'
+                'columns',
+                'defaultIndent'
             ] ),
-            colspan() {
-                return this.columns.length;
-            },
             isChilds() {
                 return this.row.childs && !!this.row.childs.length;
             },
-            isOpenChildGroups(){
+            isOpenChildGroups() {
                 return this.row.isOpen;
+            },
+            indent() {
+                let l = this.row.level;
+                if ( l > 0 ) {
+                    return ( this.defaultIndent) + 'px';
+                }
             }
         }
     }

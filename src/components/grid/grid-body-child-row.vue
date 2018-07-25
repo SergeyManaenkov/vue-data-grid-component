@@ -1,5 +1,5 @@
 <template>
-    <div class="row" :style="{marginLeft: indent}" v-show="isShow">
+    <div class="row" :style="{paddingLeft: indent}" v-show="isShow">
             <grid-body-child-cell
                     v-for="(column, index) in columns"
 
@@ -25,7 +25,7 @@
                 'defaultIndent'
             ] ),
             indent() {
-                return ( this.groups.length * this.defaultIndent) + 'px';
+                return ( this.defaultIndent) + 'px';
             },
             isShow(){
                 return this.row.parent.isOpen;

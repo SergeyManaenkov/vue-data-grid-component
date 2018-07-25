@@ -85,7 +85,7 @@ export const store = new Vuex.Store( {
         initDataView: {},
         groups: [
             new group( { field: 'LevelPointName' } ),
-            new group( { field: 'IndicatorTitle', isOpen: false } ),
+            new group( { field: 'IndicatorTitle', isOpen: true } ),
             new group( { field: 'MyRole', isOpen: true } )
         ],
         columns: [
@@ -121,6 +121,9 @@ export const store = new Vuex.Store( {
         },
         setOpenGroup( state, rowGroup ) {
             rowGroup.isOpen = !rowGroup.isOpen;
+        },
+        setCountGroup( state, { rowGroup, count } ) {
+            rowGroup.count = count;
         },
         dataRowsHeader( state, dataRowsHeader = [] ) {
             state.rowsHeader = dataRowsHeader;
@@ -186,51 +189,6 @@ export const store = new Vuex.Store( {
 
             setTimeout( () => {
                 let { groups } = state;
-
-                /*// Сортируем данные
-                const sortDataRowsBody = state.initData.slice( 0 ).sort( getters.sort );
-
-
-
-                const rootGroups = {};
-                if ( groups.length ) {
-                    let firstGroup = groups[0];
-                    for ( const row of sortDataRowsBody ) {
-                        let groupTitle = row[firstGroup.field];
-                        let root = rootGroups[groupTitle];
-                        if ( !root ) {
-                            root = rootGroups[groupTitle] = new dataItemGroup( {
-                                title: groupTitle,
-                                groupSettings: firstGroup,
-                                isOpen: firstGroup.isOpen,
-                                childGroups: {}
-                            } );
-                        }
-
-                        let parentGroup = root;
-                        for ( let i = 1; i < groups.length; i++ ) {
-                            let group = groups[i];
-                            let titleGroup = row[group.field];
-                            if ( !parentGroup.childGroups[titleGroup] ) {
-                                parentGroup.childGroups[titleGroup] = new dataItemGroup( {
-                                    title: titleGroup,
-                                    groupSettings: group,
-                                    parent: parentGroup,
-                                    level: i,
-                                    isOpen: group.isOpen,
-                                    childGroups: (i == groups.length - 1 ? null : {})
-                                } );
-                            }
-                            parentGroup = parentGroup.childGroups[titleGroup];
-                        }
-                        row.parent = parentGroup;
-                        parentGroup.childs.push( row );
-                    }
-                } else {
-                    rootGroups[0] = {
-                        childs: sortDataRowsBody
-                    };
-                }*/
 
                 const options = {
                     data: state.initData,

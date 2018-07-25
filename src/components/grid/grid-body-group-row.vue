@@ -2,7 +2,7 @@
 
     <div class="container-group" :style="{paddingLeft: indent}">
         <!-- Отрисовываем группировку -->
-        <div class="row font-weight-bold bg-light" v-if="row.isGroup">
+        <div class="row font-weight-bold bg-light" v-if="isGroup">
             <grid-body-group-cell
                     :row="row"
             ></grid-body-group-cell>
@@ -10,7 +10,7 @@
 
         <!-- Дочерние группировки, усли они есть -->
         <template
-                v-if="row.childGroups"
+                v-if="isChildGroups"
         >
             <grid-body-group-row
                     v-for="(rowObj) in row.childGroups"
@@ -19,9 +19,9 @@
             ></grid-body-group-row>
         </template>
 
-        <!-- Выводим детей группировки, если они есть -->
+        <!-- Выводим детей группировки, для последней группировки -->
         <template
-                v-if="isChilds"
+                v-if="isLast"
         >
             <grid-body-child-row
                     v-for="(rowChild) in row.childs"
@@ -50,8 +50,14 @@
                 'columns',
                 'defaultIndent'
             ] ),
-            isChilds() {
-                return this.row.childs && !!this.row.childs.length;
+            isGroup(){
+                return this.row.isGroup;
+            },
+            isChildGroups(){
+              return this.row.childGroups;
+            },
+            isLast() {
+                return this.row.isLast;
             },
             isOpenChildGroups() {
                 return this.row.isOpen;
@@ -66,6 +72,9 @@
     }
 </script>
 
-<style>
-
+<style scoped>
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 </style>

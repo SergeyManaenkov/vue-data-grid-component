@@ -2,8 +2,7 @@
 
     <div class="container-header border font-weight-bold bg-light">
         <grid-header-row
-                v-for="(row, index) in rows"
-                :key="index"
+                v-for="(row) in rows"
                 :row="row"
         ></grid-header-row>
     </div>
@@ -30,7 +29,3 @@
     }
 </script>
 
-
-<style>
-
-</style>

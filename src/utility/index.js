@@ -10,6 +10,7 @@ function dataItemGroup( options ) {
         parent: null,
         childs: [],
         level: 0,
+        isLast: false,
         isOpen: true,
         isGroup: true
     };
@@ -36,7 +37,7 @@ function createDataView( options ) {
                     childGroups: {}
                 } );
             }
-
+            root.childs.push( row );
             let parentGroup = root;
             for ( let i = 1; i < groups.length; i++ ) {
                 let group = groups[i];
@@ -47,14 +48,15 @@ function createDataView( options ) {
                         groupSettings: group,
                         parent: parentGroup,
                         level: i,
+                        isLast: (groups.length - 1 == i ? true : false),
                         isOpen: group.isOpen,
                         childGroups: (i == groups.length - 1 ? null : {})
                     } );
                 }
                 parentGroup = parentGroup.childGroups[titleGroup];
+                parentGroup.childs.push( row );
             }
             row.parent = parentGroup;
-            parentGroup.childs.push( row );
         }
     } else {
         rootGroups[0] = {
@@ -64,4 +66,5 @@ function createDataView( options ) {
 
     return rootGroups;
 }
+
 export { createSorting, getValueCell, createDataView };

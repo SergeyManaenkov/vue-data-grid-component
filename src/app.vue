@@ -1,16 +1,16 @@
 <template>
     <div>
+        <!-- ToolBar -->
         <grid-toolbar></grid-toolbar>
-
+        <!-- Header -->
         <grid-header
                 :rows="rowsHeader"
         ></grid-header>
-
-        <grid-body-group-row
-                v-for="(rowGroupObj) in rowsBody"
-                :row="rowGroupObj"
-        ></grid-body-group-row>
-
+        <!-- Body -->
+        <grid-body
+                :rows="rowsBody"
+        ></grid-body>
+        <!-- Footer -->
         <grid-footer
                 :rows="rowsFooter"
         ></grid-footer>
@@ -24,7 +24,7 @@
     import gridHeader from './components/grid/grid-header.vue';
     import gridFooter from './components/grid/grid-footer.vue';
 
-    import GridBodyGroupRow from './components/grid/grid-body-group-row.vue';
+    import GridBody from './components/grid/grid-body.vue';
 
 
     export default {
@@ -32,7 +32,7 @@
             gridToolbar,
             gridHeader,
             gridFooter,
-            GridBodyGroupRow
+            GridBody
         },
         computed: {
             ...mapState( [

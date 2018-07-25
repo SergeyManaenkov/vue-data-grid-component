@@ -26,6 +26,9 @@
     }
 </script>
 
-<style>
-
+<style scoped>
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 </style>

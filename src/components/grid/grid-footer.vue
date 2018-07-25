@@ -2,8 +2,7 @@
 
     <div class="container-footer border font-weight-bold bg-light">
         <grid-footer-row
-                v-for="(row, index) in rows"
-                :key="index"
+                v-for="(row) in rows"
                 v-bind:row="row"
         ></grid-footer-row>
     </div>
@@ -23,7 +22,3 @@
     }
 </script>
 
-
-<style>
-
-</style>

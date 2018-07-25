@@ -18,6 +18,13 @@
         components: {
             GridBodyChildCell/*: import ('./grid-cell')*/
         },
+        data(){
+            debugger;
+            return {
+                isShow: this.row.parent.isOpen
+            }
+
+        },
         computed: {
             ...mapState( [
                 'columns',
@@ -27,13 +34,16 @@
             indent() {
                 return ( this.defaultIndent) + 'px';
             },
-            isShow(){
+            /*isShow(){
                 return this.row.parent.isOpen;
-            }
+            }*/
         }
     }
 </script>
 
-<style>
-
+<style scoped>
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 </style>

@@ -21,16 +21,8 @@
                 return row.title;
             },
             count() {
-                debugger;
                 if ( this.row.childs && this.row.childs.length ) {
                     return this.row.childs.length;
-                } else if ( this.row.childGroups ) {
-                    let parentCount = 0;
-                    for ( const key in this.row.childGroups ) {
-                        let childGroup = this.row.childGroups[key];
-                        parentCount += childGroup.childs.length;
-                    }
-                    return parentCount;
                 }
             },
             isOpen() {
@@ -39,8 +31,7 @@
         },
         methods: {
             ...mapActions( [
-                'setOpenGroup',
-                'setCountGroup'
+                'setOpenGroup'
             ] )
         }
     }
@@ -50,5 +41,9 @@
 <style scoped>
     .grid-cell {
         cursor: pointer;
+    }
+    .col{
+        padding-right: 0px;
+        padding-left: 0px;
     }
 </style>

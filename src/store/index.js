@@ -100,7 +100,7 @@ export const store = new Vuex.Store( {
         sortingColumns: [
             new sorting( { field: 'Code' } )
         ],
-        defaultIndent: 17,
+        defaultIndent: 20,
         rowsHeader: [],
         rowsBody: {},
         rowsFooter: []
@@ -121,9 +121,6 @@ export const store = new Vuex.Store( {
         },
         setOpenGroup( state, rowGroup ) {
             rowGroup.isOpen = !rowGroup.isOpen;
-        },
-        setCountGroup( state, { rowGroup, count } ) {
-            rowGroup.count = count;
         },
         dataRowsHeader( state, dataRowsHeader = [] ) {
             state.rowsHeader = dataRowsHeader;
@@ -160,7 +157,6 @@ export const store = new Vuex.Store( {
             };
 
             let rowsBodySearchResult = createDataView( options );
-
             commit( 'dataRowsBody', rowsBodySearchResult );
         },
         getRowsHeader( { commit } ) {

@@ -126,7 +126,9 @@ export const store = new Vuex.Store( {
             state.rowsHeader = dataRowsHeader;
         },
         dataRowsBody( state, dataRowsBody = {} ) {
-            state.rowsBody = dataRowsBody;
+
+            Vue.set(state, 'rowsBody', dataRowsBody);
+            //state.rowsBody = dataRowsBody;
         },
         dataRowsFooter( state, dataRowsFooter = [] ) {
             state.rowsFooter = dataRowsFooter;
@@ -135,6 +137,10 @@ export const store = new Vuex.Store( {
     actions: {
         onSearch( { commit, state, getters }, e ) {
             let textSearch = e.target.value;
+            if(!textSearch){
+                commit( 'dataRowsBody', state.initDataView );
+                return;
+            }
             const regSearch = new RegExp( textSearch, 'i' );
             const { initData, columns, groups } = state;
             const data = initData.filter( function ( row ) {

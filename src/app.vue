@@ -22,9 +22,8 @@
 
     import gridToolbar from './components/grid/grid-toolbar.vue';
     import gridHeader from './components/grid/grid-header.vue';
-    import gridFooter from './components/grid/grid-footer.vue';
-
     import GridBody from './components/grid/grid-body.vue';
+    import gridFooter from './components/grid/grid-footer.vue';
 
 
     export default {
@@ -54,6 +53,7 @@
                 'getRowsBody',
                 'getRowsFooter'
             ] );
+            debugger;
             metods.getRowsHeader.apply( this );
             metods.getRowsBody.apply( this );
             metods.getRowsFooter.apply( this );

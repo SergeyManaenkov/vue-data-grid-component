@@ -1,5 +1,7 @@
 <template>
-    <div class="row" :style="{paddingLeft: indent}" v-show="isOpen">
+    <div class="row" :style="{paddingLeft: indent}"
+         v-show="isOpen"
+    >
             <grid-body-child-cell
                     v-for="(column, index) in columns"
                     :column="column"
@@ -13,7 +15,7 @@
     import GridBodyChildCell from './grid-body-child-cell.vue';
 
     export default {
-        props: ["row"],
+        props: ["parent", "row"],
         components: {
             GridBodyChildCell
         },
@@ -27,7 +29,7 @@
                 return ( this.defaultIndent) + 'px';
             },
             isOpen(){
-                return this.row.parent.isOpen;
+                return this.parent.isOpen;
             }
         }
     }

@@ -15,7 +15,7 @@
             <grid-body-group-row
                     v-for="(rowObj) in row.childGroups"
                     :row="rowObj"
-                    v-show="isOpenChildGroups"
+                    v-show="isOpen"
             ></grid-body-group-row>
         </template>
 
@@ -25,6 +25,7 @@
         >
             <grid-body-child-row
                     v-for="(rowChild) in row.childs"
+                    :parent="row"
                     :row="rowChild"
             ></grid-body-child-row>
         </template>
@@ -59,7 +60,7 @@
             isLast() {
                 return this.row.isLast;
             },
-            isOpenChildGroups() {
+            isOpen() {
                 return this.row.isOpen;
             },
             indent() {
